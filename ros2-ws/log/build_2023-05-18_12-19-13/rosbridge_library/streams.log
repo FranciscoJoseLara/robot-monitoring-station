@@ -1,0 +1,58 @@
+[0.049s] Invoking command in '/home/francisco/ros2-ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib PYTHONPATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages /usr/bin/cmake --build /home/francisco/ros2-ws/build/rosbridge_library -- -j4 -l4
+[0.180s] Invoked command in '/home/francisco/ros2-ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib PYTHONPATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages /usr/bin/cmake --build /home/francisco/ros2-ws/build/rosbridge_library -- -j4 -l4
+[0.265s] Invoking command in '/home/francisco/ros2-ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib PYTHONPATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages /usr/bin/cmake --install /home/francisco/ros2-ws/build/rosbridge_library
+[0.328s] -- Install configuration: ""
+[0.329s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.sh
+[0.329s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.dsv
+[0.329s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library
+[0.330s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal
+[0.330s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscription_modifiers.py
+[0.330s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/topics.py
+[0.331s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/services.py
+[0.331s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/__init__.py
+[0.331s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/exceptions.py
+[0.332s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/ros_loader.py
+[0.332s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscribers.py
+[0.332s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/pngcompression.py
+[0.332s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/publishers.py
+[0.333s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/outgoing_message.py
+[0.333s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/message_conversion.py
+[0.333s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/cbor_conversion.py
+[0.334s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/rosbridge_protocol.py
+[0.334s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/__init__.py
+[0.334s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util
+[0.335s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/cbor.py
+[0.335s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/__init__.py
+[0.335s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/protocol.py
+[0.336s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities
+[0.336s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/subscribe.py
+[0.336s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/publish.py
+[0.337s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/fragmentation.py
+[0.337s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/__init__.py
+[0.337s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/service_response.py
+[0.337s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/unadvertise_service.py
+[0.338s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/call_service.py
+[0.338s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise_service.py
+[0.338s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/defragmentation.py
+[0.339s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise.py
+[0.339s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capability.py
+[0.431s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library'...
+[0.431s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities'...
+[0.431s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal'...
+[0.432s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util'...
+[0.441s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/ament_index/resource_index/package_run_dependencies/rosbridge_library
+[0.441s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/ament_index/resource_index/parent_prefix_path/rosbridge_library
+[0.442s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.dsv
+[0.442s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/path.sh
+[0.443s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/path.dsv
+[0.443s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.bash
+[0.443s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.sh
+[0.443s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.zsh
+[0.444s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.dsv
+[0.444s] -- Installing: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/package.dsv
+[0.444s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/ament_index/resource_index/packages/rosbridge_library
+[0.445s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig.cmake
+[0.445s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig-version.cmake
+[0.445s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/package.xml
+[0.453s] Invoked command in '/home/francisco/ros2-ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib PYTHONPATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages /usr/bin/cmake --install /home/francisco/ros2-ws/build/rosbridge_library

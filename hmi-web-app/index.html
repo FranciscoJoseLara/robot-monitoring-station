@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+    <meta charset="UTF-8" />
+    
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="styles_main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles_loader.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles_animations.css" media="screen" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Vito Test Server</title>
+
+    <script src="./eventemitter2.js"></script>
+    <script src="./roslib.min.js"></script>
+  
+  </head>
+  
+  <body>  
+
+
+    <div id="n">
+      <div id="info">
+          <span class="margin-auto__content">
+            Notificación
+          </span>
+        </div>
+        <div id="close"  onclick="notnot()"><img src="https://cdn4.iconfinder.com/data/icons/menu-phone-glyph/32/menu_glyph_43-512.png" style="height: 30px;" /></div>
+    </div>
+
+    <div id="img-lupa-container"><img id="img-lupa" src="icon-lupa.png" onclick="close_detail_panel()"></img></div>
+
+    <a name="up"></a>
+    <div id="detail-panel">
+      <div id="detail-panel-head">unidad seleccionada</div>
+      <div id="detail-panel-content">
+        <!-- <div class="detail-box"><br>Velocidad<br></div>
+        <div class="detail-box"><br>Inlcinación<br></div>
+        <div class="detail-box"><br>Batería<br></div>
+        <div class="detail-box"><br>Sensor 1<br></div>
+        <div class="detail-box"><br>Sensor 2<br></div>
+        <div class="detail-box"><br>Sensor 3<br></div> -->
+      </div>
+      <div id="detail-panel-foot">
+        <!-- <div id="map" class="reduced-map"></div> -->
+        
+      </div>
+    </div>
+
+
+    <div id="head-buttons">
+      <!-- <a href="#ancla-1"> --> <div id="robots-button" class="control-buttons" onclick="show_robots_panel()"><img src="./icon_robocar.png" alt="robocar"/></div> <!-- </a> -->
+      <div id="sync-button" class="control-buttons" onclick="show_sync_panel()"><img src="./icon_sync.png" alt="sync"/></div>
+      <div id="center-button" class="control-buttons" onclick="center_view()"><img src="./icon-center.png" alt="center"/></div>
+      <div id="video-button" class="control-buttons" onclick="show_video_panel()"><img src="./icon-video.png" alt="video"/></div>
+    </div>
+
+    <div id="sync-panel">
+      <div id="close-sync-button"  onclick="close_sync_panel()">X</div>
+      <div class="panel-head">Conexión y Sincronización</div>
+      <div class="panel-content">
+        <div class="connection-status">
+          <div class="connection-text">Estado de la conexión: &nbsp;&nbsp;&nbsp;</div>
+          <div id="statusIndicator" class="connection-text" style="text-align: center;">
+            <p id="connecting">
+              Connecting to rosbridge...
+            </p>
+            <p id="connected" style="color:#00D600; display:none">
+              Connected
+            </p>
+            <p id="error" style="color:#FF0000; display:none">
+              Error in the backend!
+            </p>
+            <p id="closed" style="display:none">
+              Connection closed.
+            </p>
+          </div>
+        </div>
+
+        <br>
+
+        <button id="panel-sync-button">
+          <p id="text-sync-button"><span style="color: green;">Sync</span></p>
+        </button>
+        
+        <div class="loader" id="loader">Loading...</div>
+
+        <div id="sync-units-box">
+          <div style="text-align: left;">Unidades sincronizadas:</div>
+          <ul id="unitsList" style="text-align: left;">
+          </ul>
+          
+        </div>
+      </div>
+      <!-- <div class="panel-footer"></div> -->
+    </div>
+    
+    <div id="camera-expand">
+      <!-- <div id="close-camera-expand" onclick="close_camera_expand()"><strong>X</strong></div>
+      <img id="camera" class="camera-big" src="http://0.0.0.0:8080/stream?topic=/video_image" alt="http://0.0.0.0:8080/stream?topic=/video_image"/> -->
+    </div>
+
+    <div id="video-panel">
+      <div id="close-camera-expand" onclick="close_video_panel()"><strong>X</strong></div>
+        <div id="cameras-boxes">
+          <div class="video-box"><p class="camera-id">Camera: Unidad_01</p><img class="no-margin"  src="http://0.0.0.0:8181/stream?topic=/video_image" alt="Topic: /video_image" onerror="this.src='./icon-no-signal.png';"/></div>
+          <div class="video-box"><p class="camera-id">Camera: Unidad_02</p><img class="no-margin"  src="phttp://0.0.0.0:8181/stream?topic=/video_image_usb" alt="Topic: /video_image_usb" onerror="this.src='./icon-no-signal.png';"/></div>    
+          <div class="video-box"><p class="camera-id">Camera: Unidad_03</p><img class="no-margin"  src="phttp://0.0.0.0:8181/stream?topic=/video_image_usb" alt="Topic: /video_image_usb" onerror="this.src='./icon-no-signal.png';"/></div>    
+          <div class="video-box"><p class="camera-id">Camera: Unidad_04</p><img class="no-margin"  src="phttp://0.0.0.0:8181/stream?topic=/video_image_usb" alt="Topic: /video_image_usb" onerror="this.src='./icon-no-signal.png';"/></div>    
+        </div>
+      </div>
+
+    <div id="map" style="margin-top: 10px; margin-right: 2.5%; margin-left: 2.5%; height: 96%; width: 95%; position: relative;">
+      
+    </div>
+
+    <div id="robot-id-overlay">
+      <div id="overlay-left-corner">
+        <!-- <div id="speed-text">km/h<br><span id="speed-value">45</span></div>
+        <div id="speed-param" class="circular-progress css3"></div> -->
+      </div>
+      <div id="overlay-center"></div>
+      <div id="overlay-right-corner">
+        <img class="alabeo" id="alabeo-base" src="./icon-alabeo-base.png" alt="alabeo-base"/>
+        <img class="alabeo" id="alabeo-move" src="./icon-alabeo-move.png" alt="alabeo-move"/>
+        <img class="alabeo" id="alabeo-top" src="./icon-alabeo-top.png" alt="alabeo-top"/>
+      </div>
+    </div>
+
+    <div id="robots-panel">
+      <h3 style="margin: 0px; margin-bottom: 5px; text-align: center; border-bottom: 2px solid black;">Lista de unidades</h3>
+    </div>
+
+    <!-- <button onclick="test()">test</button> -->
+    
+    <script type="module" src="./main.js"></script>
+    <script  src="./app_controls.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,75 @@
+[0.037s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/francisco/ros2-ws/src/ros2_usb_camera -DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/usb_camera_driver
+[0.069s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.550s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.641s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.041s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.431s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.573s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.872s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[1.949s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.075s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.325s] -- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4") 
+[2.548s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.702s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.725s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.730s] -- Check if compiler accepts -pthread
+[2.956s] -- Check if compiler accepts -pthread - yes
+[3.051s] -- Configuring done
+[3.388s] -- Generating done
+[3.397s] -- Build files have been written to: /home/francisco/ros2-ws/build/usb_camera_driver
+[3.415s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/francisco/ros2-ws/src/ros2_usb_camera -DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/usb_camera_driver
+[3.424s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/usb_camera_driver -- -j4 -l4
+[3.523s] [35m[1mScanning dependencies of target usb_camera_driver[0m
+[3.528s] [35m[1mScanning dependencies of target gtest[0m
+[3.529s] [35m[1mScanning dependencies of target gtest_main[0m
+[4.016s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.016s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.058s] [ 30%] [32mBuilding CXX object CMakeFiles/usb_camera_driver.dir/src/usb_camera_driver.cpp.o[0m
+[10.162s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.280s] [ 40%] Built target gtest_main
+[16.876s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.982s] [ 50%] Built target gtest
+[17.440s] [ 60%] [32m[1mLinking CXX shared library libusb_camera_driver.so[0m
+[19.203s] [ 60%] Built target usb_camera_driver
+[19.225s] [35m[1mScanning dependencies of target usb_camera_driver_node[0m
+[19.226s] [35m[1mScanning dependencies of target usb_camera_driver_tests[0m
+[19.345s] [ 70%] [32mBuilding CXX object CMakeFiles/usb_camera_driver_node.dir/src/usb_camera_driver_node.cpp.o[0m
+[19.370s] [ 80%] [32mBuilding CXX object test/CMakeFiles/usb_camera_driver_tests.dir/usb_camera_driver_tests.cpp.o[0m
+[24.923s] [ 90%] [32m[1mLinking CXX executable usb_camera_driver_node[0m
+[25.777s] [100%] [32m[1mLinking CXX executable usb_camera_driver_tests[0m
+[27.097s] [100%] Built target usb_camera_driver_node
+[27.189s] [100%] Built target usb_camera_driver_tests
+[27.220s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/usb_camera_driver -- -j4 -l4
+[27.324s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/usb_camera_driver
+[27.343s] -- Install configuration: ""
+[27.343s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/lib/libusb_camera_driver.so
+[27.345s] -- Set runtime path of "/home/francisco/ros2-ws/install/usb_camera_driver/lib/libusb_camera_driver.so" to ""
+[27.345s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node
+[27.347s] -- Set runtime path of "/home/francisco/ros2-ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node" to ""
+[27.347s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch
+[27.347s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py
+[27.347s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py
+[27.348s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config
+[27.348s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/config.yaml
+[27.348s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/camera.yaml
+[27.348s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver
+[27.349s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver
+[27.349s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh
+[27.349s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.dsv
+[27.349s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh
+[27.350s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.dsv
+[27.350s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash
+[27.350s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh
+[27.350s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh
+[27.350s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.dsv
+[27.351s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.dsv
+[27.351s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver
+[27.351s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver
+[27.352s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake
+[27.352s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake
+[27.352s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.xml
+[27.359s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/usb_camera_driver

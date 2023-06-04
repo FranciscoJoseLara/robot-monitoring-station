@@ -1,0 +1,132 @@
+[0.136s] Invoking command in '/home/francisco/ros2-ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/rosbridge_msgs -- -j4 -l4
+[1.374s] [  2%] Built target rosbridge_msgs__cpp
+[1.374s] [ 12%] Built target rosbridge_msgs__rosidl_generator_c
+[1.374s] [ 23%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[1.375s] [ 33%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[1.375s] [ 43%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[1.375s] [ 53%] Built target rosbridge_msgs__rosidl_typesupport_c
+[1.377s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[1.377s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[1.377s] [ 74%] Built target rosbridge_msgs
+[1.377s] [ 76%] Built target rosbridge_msgs__py
+[1.378s] [ 84%] Built target rosbridge_msgs__python
+[1.378s] [ 89%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[1.378s] [ 94%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[1.385s] [100%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.460s] Invoked command in '/home/francisco/ros2-ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/rosbridge_msgs -- -j4 -l4
+[1.868s] Invoking command in '/home/francisco/ros2-ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/rosbridge_msgs
+[1.904s] -- Install configuration: ""
+[1.906s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[1.907s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs
+[1.907s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[1.907s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.h
+[1.908s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[1.909s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.h
+[1.909s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__functions.c
+[1.910s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__struct.h
+[1.911s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__struct.h
+[1.912s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__functions.c
+[1.913s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__functions.h
+[1.914s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__functions.h
+[1.914s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.h
+[1.915s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.915s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.h
+[1.916s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[1.916s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[1.917s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[1.918s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs
+[1.919s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[1.919s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[1.920s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_c.h
+[1.920s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_c.h
+[1.921s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.921s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[1.922s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs
+[1.922s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[1.923s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[1.923s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[1.924s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/dds_fastrtps
+[1.924s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[1.925s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.925s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.926s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs
+[1.926s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[1.926s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[1.927s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.c
+[1.928s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.c
+[1.928s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_c.h
+[1.928s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_c.h
+[1.929s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.929s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[1.929s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[1.930s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs
+[1.930s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[1.931s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[1.931s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__struct.hpp
+[1.931s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__traits.hpp
+[1.933s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__traits.hpp
+[1.934s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__builder.hpp
+[1.934s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__struct.hpp
+[1.934s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__builder.hpp
+[1.935s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.hpp
+[1.935s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.hpp
+[1.936s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs
+[1.936s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[1.937s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[1.937s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp
+[1.937s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.cpp
+[1.938s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[1.938s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[1.938s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[1.939s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[1.939s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[1.940s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[1.940s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/__init__.py
+[2.073s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg
+[2.074s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/__init__.py
+[2.074s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_clients_s.c
+[2.075s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_client.py
+[2.075s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_client_s.c
+[2.076s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_clients.py
+[2.079s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.080s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.081s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.082s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/lib/librosbridge_msgs__python.so
+[2.083s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[2.084s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[2.084s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[2.085s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[2.086s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[2.087s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[2.087s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[2.088s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[2.088s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[2.089s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[2.089s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[2.089s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[2.091s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[2.092s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[2.092s] -- Installing: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[2.093s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[2.094s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cExport.cmake
+[2.096s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.096s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.097s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.097s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport.cmake
+[2.098s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.098s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cppExport.cmake
+[2.098s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.099s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.108s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport.cmake
+[2.108s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.109s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[2.109s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.110s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.110s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.111s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.111s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.111s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.112s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[2.112s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[2.113s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[2.114s] Invoked command in '/home/francisco/ros2-ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/rosbridge_msgs

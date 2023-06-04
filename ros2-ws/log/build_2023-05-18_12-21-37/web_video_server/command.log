@@ -1,0 +1,2 @@
+Invoking command in '/home/francisco/ros2-ws/build/web_video_server': /usr/bin/cmake /home/francisco/ros2-ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/web_video_server
+Invoked command in '/home/francisco/ros2-ws/build/web_video_server' returned '1': /usr/bin/cmake /home/francisco/ros2-ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/web_video_server

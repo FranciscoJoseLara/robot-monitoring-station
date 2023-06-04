@@ -1,0 +1,9 @@
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/install/strip.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/install/local.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/install.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/list_install_components.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/rebuild_cache.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/edit_cache.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/test.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/rosapi_uninstall.dir
+/home/francisco/ros2-ws/build/rosapi/CMakeFiles/uninstall.dir

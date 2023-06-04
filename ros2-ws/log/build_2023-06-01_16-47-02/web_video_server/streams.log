@@ -1,0 +1,41 @@
+[0.140s] Invoking command in '/home/francisco/ros2-ws/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/web_video_server -- -j4 -l4
+[0.323s] [35m[1mScanning dependencies of target web_video_server[0m
+[0.590s] [  9%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o[0m
+[29.779s] [ 18%] [32m[1mLinking CXX executable web_video_server[0m
+[32.684s] [100%] Built target web_video_server
+[32.710s] Invoked command in '/home/francisco/ros2-ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/web_video_server -- -j4 -l4
+[32.822s] Invoking command in '/home/francisco/ros2-ws/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/web_video_server
+[32.843s] -- Install configuration: ""
+[32.843s] -- Installing: /home/francisco/ros2-ws/install/web_video_server/lib/web_video_server/web_video_server
+[32.850s] -- Set runtime path of "/home/francisco/ros2-ws/install/web_video_server/lib/web_video_server/web_video_server" to ""
+[32.850s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server
+[32.851s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/png_streamers.h
+[32.851s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/h264_streamer.h
+[32.852s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/multipart_stream.h
+[32.852s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/web_video_server.h
+[32.852s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[32.852s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[32.853s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/vp8_streamer.h
+[32.853s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/image_streamer.h
+[32.853s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/libav_streamer.h
+[32.853s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/vp9_streamer.h
+[32.853s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/launch
+[32.854s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/launch/web_video_server.xml
+[32.854s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server
+[32.854s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/web_video_server.yaml
+[32.854s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[32.854s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[32.854s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[32.855s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[32.856s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/path.sh
+[32.857s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/path.dsv
+[32.858s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.bash
+[32.867s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.sh
+[32.868s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.zsh
+[32.869s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.dsv
+[32.869s] -- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/package.dsv
+[32.870s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[32.870s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[32.871s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[32.871s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/package.xml
+[32.872s] Invoked command in '/home/francisco/ros2-ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/web_video_server

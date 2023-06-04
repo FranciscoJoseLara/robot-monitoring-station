@@ -1,0 +1,9 @@
+  File "/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/SendPKG.py", line 64
+    send_pkg = '{' \
+        + '"id": "%s",' \
+        + '"type": "%s",' \
+                    
+                         
+                           ^
+SyntaxError: unexpected character after line continuation character
+

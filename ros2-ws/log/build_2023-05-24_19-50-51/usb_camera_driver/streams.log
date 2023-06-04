@@ -1,0 +1,36 @@
+[0.229s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/usb_camera_driver -- -j4 -l4
+[1.078s] [ 20%] Built target gtest_main
+[1.090s] [ 40%] Built target gtest
+[1.683s] [ 60%] Built target usb_camera_driver
+[1.914s] [ 80%] Built target usb_camera_driver_node
+[1.915s] [100%] Built target usb_camera_driver_tests
+[1.983s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --build /home/francisco/ros2-ws/build/usb_camera_driver -- -j4 -l4
+[2.088s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/usb_camera_driver
+[2.123s] -- Install configuration: ""
+[2.160s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/lib/libusb_camera_driver.so
+[2.189s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node
+[2.190s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch
+[2.203s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py
+[2.204s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py
+[2.204s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/__pycache__
+[2.213s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/__pycache__/usb_camera_node.launch.cpython-38.pyc
+[2.213s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config
+[2.217s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/config.yaml
+[2.217s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/camera.yaml
+[2.217s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver
+[2.218s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver
+[2.218s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh
+[2.218s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.dsv
+[2.218s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh
+[2.218s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.dsv
+[2.219s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash
+[2.219s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh
+[2.220s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh
+[2.220s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.dsv
+[2.220s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.dsv
+[2.252s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver
+[2.252s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver
+[2.253s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake
+[2.253s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake
+[2.253s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.xml
+[2.283s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy /usr/bin/cmake --install /home/francisco/ros2-ws/build/usb_camera_driver

@@ -1,0 +1,4 @@
+[console_scripts]
+camera = camera_driver.driver_camera:main
+camera-usb = camera_driver.driver_camera_usb:main
+

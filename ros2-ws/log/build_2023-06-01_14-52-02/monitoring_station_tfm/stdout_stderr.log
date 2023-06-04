@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/PKG-INFO
+writing dependency_links to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/dependency_links.txt
+writing entry points to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/entry_points.txt
+writing requirements to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/requires.txt
+writing top-level names to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/top_level.txt
+reading manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+writing manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying monitoring_station_tfm/SendPKG.py -> /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm
+running install
+running install_lib
+copying /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm/SendPKG.py -> /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm
+byte-compiling /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/SendPKG.py to SendPKG.cpython-38.pyc
+  File "/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/SendPKG.py", line 85
+    # return send_pkg
+                    ^
+SyntaxError: unexpected EOF while parsing
+
+running install_data
+running install_egg_info
+removing '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing pub01 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing pub02 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing pub03 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing publicador script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing talker script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing test01 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing test02 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing test03 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing test04 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing test05 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+Installing timer script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+writing list of installed files to '/home/francisco/ros2-ws/build/monitoring_station_tfm/install.log'

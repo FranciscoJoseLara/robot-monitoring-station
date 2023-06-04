@@ -1,0 +1,15 @@
+[console_scripts]
+listener = monitoring_station_tfm.subscriptor_bucle:main
+pub01 = monitoring_station_tfm.test01_bridge:main
+pub02 = monitoring_station_tfm.test02_bridge:main
+pub03 = monitoring_station_tfm.test03_bridge:main
+publicador = monitoring_station_tfm.publicador:main
+talker = monitoring_station_tfm.publicador_bucle:main
+test-pub = monitoring_station_tfm.stsb_sim_pub:pub
+test01 = monitoring_station_tfm.nodo_Dron01:main
+test02 = monitoring_station_tfm.nodo_RoverJ8:main
+test03 = monitoring_station_tfm.nodo_robot03:main
+test04 = monitoring_station_tfm.nodo_robot04:main
+test05 = monitoring_station_tfm.nodo_robot05:main
+timer = monitoring_station_tfm.test_timer:main
+

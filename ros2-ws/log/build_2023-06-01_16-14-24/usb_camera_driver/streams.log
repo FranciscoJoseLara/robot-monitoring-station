@@ -1,0 +1,36 @@
+[0.075s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': /usr/bin/cmake --build /home/francisco/ros2-ws/build/usb_camera_driver -- -j4 -l4
+[0.822s] [ 20%] Built target gtest
+[0.824s] [ 40%] Built target gtest_main
+[1.257s] [ 60%] Built target usb_camera_driver
+[1.715s] [ 80%] Built target usb_camera_driver_node
+[1.722s] [100%] Built target usb_camera_driver_tests
+[1.764s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': /usr/bin/cmake --build /home/francisco/ros2-ws/build/usb_camera_driver -- -j4 -l4
+[1.862s] Invoking command in '/home/francisco/ros2-ws/build/usb_camera_driver': /usr/bin/cmake --install /home/francisco/ros2-ws/build/usb_camera_driver
+[1.883s] -- Install configuration: ""
+[1.953s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/lib/libusb_camera_driver.so
+[1.970s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node
+[1.970s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch
+[1.976s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py
+[1.976s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py
+[1.976s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/__pycache__
+[1.989s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/__pycache__/usb_camera_node.launch.cpython-38.pyc
+[1.990s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config
+[2.008s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/config.yaml
+[2.009s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/camera.yaml
+[2.009s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver
+[2.009s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver
+[2.010s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh
+[2.010s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.dsv
+[2.010s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh
+[2.011s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.dsv
+[2.011s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash
+[2.011s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh
+[2.012s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh
+[2.012s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.dsv
+[2.012s] -- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.dsv
+[2.036s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver
+[2.037s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver
+[2.052s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake
+[2.052s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake
+[2.052s] -- Up-to-date: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.xml
+[2.078s] Invoked command in '/home/francisco/ros2-ws/build/usb_camera_driver' returned '0': /usr/bin/cmake --install /home/francisco/ros2-ws/build/usb_camera_driver

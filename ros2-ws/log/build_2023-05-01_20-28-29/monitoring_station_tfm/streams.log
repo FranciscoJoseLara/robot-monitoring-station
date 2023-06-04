@@ -1,0 +1,35 @@
+[3.458s] Invoking command in '/home/francisco/ros2-ws/src/monitoring_station_tfm': PYTHONPATH=/home/francisco/ros2-ws/build/monitoring_station_tfm/prefix_override:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitoring_station_tfm build --build-base /home/francisco/ros2-ws/build/monitoring_station_tfm/build install --record /home/francisco/ros2-ws/build/monitoring_station_tfm/install.log --install-scripts $base/lib/monitoring_station_tfm --single-version-externally-managed
+[3.804s] running egg_info
+[3.806s] writing ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/PKG-INFO
+[3.807s] writing dependency_links to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/dependency_links.txt
+[3.808s] writing entry points to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/entry_points.txt
+[3.808s] writing requirements to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/requires.txt
+[3.808s] writing top-level names to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/top_level.txt
+[3.925s] reading manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+[3.929s] writing manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+[3.929s] running build
+[3.929s] running build_py
+[3.930s] copying monitoring_station_tfm/test02_bridge.py -> /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm
+[3.931s] copying monitoring_station_tfm/test03_bridge.py -> /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm
+[3.931s] copying monitoring_station_tfm/test01_bridge.py -> /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm
+[3.932s] running install
+[3.934s] running install_lib
+[3.937s] copying /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm/test02_bridge.py -> /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm
+[3.938s] copying /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm/test03_bridge.py -> /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm
+[3.938s] copying /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm/test01_bridge.py -> /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm
+[3.940s] byte-compiling /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/test02_bridge.py to test02_bridge.cpython-38.pyc
+[3.944s] byte-compiling /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/test03_bridge.py to test03_bridge.cpython-38.pyc
+[3.946s] byte-compiling /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/test01_bridge.py to test01_bridge.cpython-38.pyc
+[3.947s] running install_data
+[3.948s] running install_egg_info
+[3.953s] removing '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info' (and everything under it)
+[3.954s] Copying ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info
+[3.957s] running install_scripts
+[4.002s] Installing listener script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+[4.003s] Installing pub01 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+[4.003s] Installing pub02 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+[4.004s] Installing pub03 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+[4.004s] Installing publicador script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+[4.005s] Installing talker script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm
+[4.006s] writing list of installed files to '/home/francisco/ros2-ws/build/monitoring_station_tfm/install.log'
+[4.063s] Invoked command in '/home/francisco/ros2-ws/src/monitoring_station_tfm' returned '0': PYTHONPATH=/home/francisco/ros2-ws/build/monitoring_station_tfm/prefix_override:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitoring_station_tfm build --build-base /home/francisco/ros2-ws/build/monitoring_station_tfm/build install --record /home/francisco/ros2-ws/build/monitoring_station_tfm/install.log --install-scripts $base/lib/monitoring_station_tfm --single-version-externally-managed

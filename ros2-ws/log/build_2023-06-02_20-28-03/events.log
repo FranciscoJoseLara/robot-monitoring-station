@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (-) JobUnselected: {'identifier': 'camera_driver'}
+[0.000840] (-) JobUnselected: {'identifier': 'monitoring_station_tfm'}
+[0.000977] (-) JobUnselected: {'identifier': 'rosapi'}
+[0.001048] (-) JobUnselected: {'identifier': 'rosapi_msgs'}
+[0.001382] (-) JobUnselected: {'identifier': 'rosbridge_library'}
+[0.001708] (-) JobUnselected: {'identifier': 'rosbridge_msgs'}
+[0.001764] (-) JobUnselected: {'identifier': 'rosbridge_server'}
+[0.001812] (-) JobUnselected: {'identifier': 'rosbridge_suite'}
+[0.001859] (-) JobUnselected: {'identifier': 'rosbridge_test_msgs'}
+[0.001906] (-) JobUnselected: {'identifier': 'usb_camera_driver'}
+[0.001951] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.001999] (-) EventReactorShutdown: {}

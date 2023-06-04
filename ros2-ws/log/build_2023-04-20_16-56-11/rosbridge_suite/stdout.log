@@ -1,0 +1,22 @@
+-- Found ament_cmake_core: 0.9.11 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/francisco/ros2-ws/build/rosbridge_suite
+-- Install configuration: ""
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/ament_index/resource_index/package_run_dependencies/rosbridge_suite
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/ament_index/resource_index/parent_prefix_path/rosbridge_suite
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.bash
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.zsh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/ament_index/resource_index/packages/rosbridge_suite
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig.cmake
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig-version.cmake
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/package.xml

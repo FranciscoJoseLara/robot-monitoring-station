@@ -1,0 +1,22 @@
+[5.565s] Invoking command in '/home/francisco/ros2-ws/src/camera_driver': PYTHONPATH=/home/francisco/ros2-ws/build/camera_driver/prefix_override:/home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_driver build --build-base /home/francisco/ros2-ws/build/camera_driver/build install --record /home/francisco/ros2-ws/build/camera_driver/install.log --install-scripts $base/lib/camera_driver --single-version-externally-managed
+[6.415s] running egg_info
+[6.417s] writing ../../build/camera_driver/camera_driver.egg-info/PKG-INFO
+[6.430s] writing dependency_links to ../../build/camera_driver/camera_driver.egg-info/dependency_links.txt
+[6.430s] writing entry points to ../../build/camera_driver/camera_driver.egg-info/entry_points.txt
+[6.430s] writing requirements to ../../build/camera_driver/camera_driver.egg-info/requires.txt
+[6.431s] writing top-level names to ../../build/camera_driver/camera_driver.egg-info/top_level.txt
+[6.616s] reading manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'
+[6.628s] writing manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'
+[6.629s] running build
+[6.629s] running build_py
+[6.632s] running install
+[6.637s] running install_lib
+[6.644s] running install_data
+[6.646s] running install_egg_info
+[6.653s] removing '/home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[6.655s] Copying ../../build/camera_driver/camera_driver.egg-info to /home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info
+[6.676s] running install_scripts
+[6.737s] Installing camera script to /home/francisco/ros2-ws/install/camera_driver/lib/camera_driver
+[6.745s] Installing camera-usb script to /home/francisco/ros2-ws/install/camera_driver/lib/camera_driver
+[6.746s] writing list of installed files to '/home/francisco/ros2-ws/build/camera_driver/install.log'
+[6.816s] Invoked command in '/home/francisco/ros2-ws/src/camera_driver' returned '0': PYTHONPATH=/home/francisco/ros2-ws/build/camera_driver/prefix_override:/home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_driver build --build-base /home/francisco/ros2-ws/build/camera_driver/build install --record /home/francisco/ros2-ws/build/camera_driver/install.log --install-scripts $base/lib/camera_driver --single-version-externally-managed

@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (-) JobUnselected: {'identifier': 'rosapi'}
+[0.000784] (-) JobUnselected: {'identifier': 'rosapi_msgs'}
+[0.000915] (-) JobUnselected: {'identifier': 'rosbridge_library'}
+[0.001028] (-) JobUnselected: {'identifier': 'rosbridge_msgs'}
+[0.001138] (-) JobUnselected: {'identifier': 'rosbridge_server'}
+[0.001250] (-) JobUnselected: {'identifier': 'rosbridge_suite'}
+[0.003338] (-) JobUnselected: {'identifier': 'rosbridge_test_msgs'}
+[0.003663] (-) JobUnselected: {'identifier': 'usb_camera_driver'}
+[0.003864] (monitoring_station_tfm) JobQueued: {'identifier': 'monitoring_station_tfm', 'dependencies': OrderedDict()}
+[0.004039] (monitoring_station_tfm) JobStarted: {'identifier': 'monitoring_station_tfm'}
+[0.097998] (-) TimerEvent: {}
+[0.198635] (-) TimerEvent: {}
+[0.299090] (-) TimerEvent: {}
+[0.399510] (-) TimerEvent: {}
+[0.499984] (-) TimerEvent: {}
+[0.600429] (-) TimerEvent: {}
+[0.700971] (-) TimerEvent: {}
+[0.801587] (-) TimerEvent: {}
+[0.902007] (-) TimerEvent: {}
+[1.002441] (-) TimerEvent: {}
+[1.102869] (-) TimerEvent: {}
+[1.203331] (-) TimerEvent: {}
+[1.303767] (-) TimerEvent: {}
+[1.404220] (-) TimerEvent: {}
+[1.504660] (-) TimerEvent: {}
+[1.587158] (monitoring_station_tfm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/monitoring_station_tfm', 'build', '--build-base', '/home/francisco/ros2-ws/build/monitoring_station_tfm/build', 'install', '--record', '/home/francisco/ros2-ws/build/monitoring_station_tfm/install.log', '--install-scripts', '$base/lib/monitoring_station_tfm', '--single-version-externally-managed'], 'cwd': '/home/francisco/ros2-ws/src/monitoring_station_tfm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'francisco', 'SSH_AGENT_PID': '1532', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/francisco', 'OLDPWD': '/home/francisco/ros2-ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1324', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/francisco/ros2-ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'francisco', 'DESKTOP_AUTOSTART_ID': '10202782a781b63710168209063635816200000015940016', 'JOURNAL_STREAM': '8:41642', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'francisco', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/francisco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sony-vaio:@/tmp/.ICE-unix/1594,unix/sony-vaio:/tmp/.ICE-unix/1594', 'INVOCATION_ID': 'c99844f6b83a45df93a25e1e56de61bc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8a5cf7e2_03ad_4929_926e_5fa58bf42097', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/francisco/ros2-ws/build/monitoring_station_tfm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/francisco/ros2-ws/build/monitoring_station_tfm/prefix_override:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs'}, 'shell': False}
+[1.604939] (-) TimerEvent: {}
+[1.705591] (-) TimerEvent: {}
+[1.806025] (-) TimerEvent: {}
+[1.906510] (-) TimerEvent: {}
+[2.006928] (-) TimerEvent: {}
+[2.107443] (-) TimerEvent: {}
+[2.108383] (monitoring_station_tfm) StdoutLine: {'line': b'running egg_info\n'}
+[2.109675] (monitoring_station_tfm) StdoutLine: {'line': b'writing ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/PKG-INFO\n'}
+[2.110397] (monitoring_station_tfm) StdoutLine: {'line': b'writing dependency_links to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/dependency_links.txt\n'}
+[2.110728] (monitoring_station_tfm) StdoutLine: {'line': b'writing entry points to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/entry_points.txt\n'}
+[2.111009] (monitoring_station_tfm) StdoutLine: {'line': b'writing requirements to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/requires.txt\n'}
+[2.111273] (monitoring_station_tfm) StdoutLine: {'line': b'writing top-level names to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/top_level.txt\n'}
+[2.190929] (monitoring_station_tfm) StdoutLine: {'line': b"reading manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'\n"}
+[2.192877] (monitoring_station_tfm) StdoutLine: {'line': b"writing manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'\n"}
+[2.193251] (monitoring_station_tfm) StdoutLine: {'line': b'running build\n'}
+[2.193517] (monitoring_station_tfm) StdoutLine: {'line': b'running build_py\n'}
+[2.193705] (monitoring_station_tfm) StdoutLine: {'line': b'copying monitoring_station_tfm/publicador.py -> /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm\n'}
+[2.194209] (monitoring_station_tfm) StdoutLine: {'line': b'running install\n'}
+[2.195840] (monitoring_station_tfm) StdoutLine: {'line': b'running install_lib\n'}
+[2.197598] (monitoring_station_tfm) StdoutLine: {'line': b'copying /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm/publicador.py -> /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm\n'}
+[2.198805] (monitoring_station_tfm) StdoutLine: {'line': b'byte-compiling /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/publicador.py to publicador.cpython-38.pyc\n'}
+[2.201411] (monitoring_station_tfm) StdoutLine: {'line': b'running install_data\n'}
+[2.202382] (monitoring_station_tfm) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.205440] (monitoring_station_tfm) StdoutLine: {'line': b"removing '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.206025] (monitoring_station_tfm) StdoutLine: {'line': b'Copying ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info\n'}
+[2.207517] (-) TimerEvent: {}
+[2.207883] (monitoring_station_tfm) StdoutLine: {'line': b'running install_scripts\n'}
+[2.242791] (monitoring_station_tfm) StdoutLine: {'line': b'Installing listener script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[2.243292] (monitoring_station_tfm) StdoutLine: {'line': b'Installing publicador script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[2.243690] (monitoring_station_tfm) StdoutLine: {'line': b'Installing talker script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[2.244413] (monitoring_station_tfm) StdoutLine: {'line': b"writing list of installed files to '/home/francisco/ros2-ws/build/monitoring_station_tfm/install.log'\n"}
+[2.286131] (monitoring_station_tfm) CommandEnded: {'returncode': 0}
+[2.308471] (-) TimerEvent: {}
+[2.328289] (monitoring_station_tfm) JobEnded: {'identifier': 'monitoring_station_tfm', 'rc': 0}
+[2.331103] (-) EventReactorShutdown: {}

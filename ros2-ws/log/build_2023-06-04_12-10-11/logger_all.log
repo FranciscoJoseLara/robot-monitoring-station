@@ -1,0 +1,251 @@
+[0.766s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'monitoring_station_tfm']
+[0.767s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f19a370d520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['monitoring_station_tfm'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f19a370d520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f19a370da60>)
+[0.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.826s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/francisco/ros2-ws'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ignore_ament_install'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['colcon_pkg']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['ros']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_driver' with type 'ros.ament_python' and name 'camera_driver'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitoring_station_tfm) by extension 'ros'
+[0.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/monitoring_station_tfm' with type 'ros.ament_python' and name 'monitoring_station_tfm'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_usb_camera) by extension 'ros'
+[0.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_usb_camera' with type 'ros.ament_cmake' and name 'usb_camera_driver'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_pkg']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ros'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['cmake', 'python']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'cmake'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['python_setup_py']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python_setup_py'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore_ament_install'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_pkg']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ros'
+[0.891s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi' with type 'ros.ament_cmake' and name 'rosapi'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ros'
+[0.893s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi_msgs' with type 'ros.ament_cmake' and name 'rosapi_msgs'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ros']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ros'
+[0.897s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_library' with type 'ros.ament_cmake' and name 'rosbridge_library'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore_ament_install'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_pkg']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_pkg'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_meta'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ros']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ros'
+[0.899s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_msgs' with type 'ros.ament_cmake' and name 'rosbridge_msgs'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore_ament_install'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_pkg']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_pkg'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_meta']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_meta'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ros']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ros'
+[0.902s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_server' with type 'ros.ament_cmake' and name 'rosbridge_server'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ros'
+[0.905s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_suite' with type 'ros.ament_cmake' and name 'rosbridge_suite'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore_ament_install'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_pkg']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_meta'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ros']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ros'
+[0.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_test_msgs' with type 'ros.ament_cmake' and name 'rosbridge_test_msgs'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ignore_ament_install'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['colcon_pkg']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'colcon_pkg'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['colcon_meta']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'colcon_meta'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['ros']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ros'
+[0.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.960s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_driver' in 'src/camera_driver'
+[0.960s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosapi_msgs' in 'src/rosbridge_suite/rosapi_msgs'
+[0.960s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosbridge_msgs' in 'src/rosbridge_suite/rosbridge_msgs'
+[0.960s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosbridge_test_msgs' in 'src/rosbridge_suite/rosbridge_test_msgs'
+[0.960s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usb_camera_driver' in 'src/ros2_usb_camera'
+[0.960s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'web_video_server' in 'src/web_video_server'
+[0.961s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosbridge_library' in 'src/rosbridge_suite/rosbridge_library'
+[0.961s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosapi' in 'src/rosbridge_suite/rosapi'
+[0.961s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosbridge_server' in 'src/rosbridge_suite/rosbridge_server'
+[0.961s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosbridge_suite' in 'src/rosbridge_suite/rosbridge_suite'
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.970s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/francisco/ros2-ws/install
+[0.974s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 261 installed packages in /opt/ros/foxy
+[0.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'cmake_target' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'cmake_clean_first' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'cmake_force_configure' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'ament_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'monitoring_station_tfm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.141s] DEBUG:colcon.colcon_core.verb:Building package 'monitoring_station_tfm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/francisco/ros2-ws/build/monitoring_station_tfm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/francisco/ros2-ws/install/monitoring_station_tfm', 'merge_install': False, 'path': '/home/francisco/ros2-ws/src/monitoring_station_tfm', 'symlink_install': False, 'test_result_base': None}
+[1.142s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.152s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/francisco/ros2-ws/src/monitoring_station_tfm' with build type 'ament_python'
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('monitoring_station_tfm', 'ament_prefix_path')
+[1.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/hook/ament_prefix_path.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/hook/ament_prefix_path.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/hook/ament_prefix_path.sh'
+[1.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.818s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/francisco/ros2-ws/src/monitoring_station_tfm'
+[1.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/francisco/ros2-ws/src/monitoring_station_tfm': PYTHONPATH=/home/francisco/ros2-ws/build/monitoring_station_tfm/prefix_override:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitoring_station_tfm build --build-base /home/francisco/ros2-ws/build/monitoring_station_tfm/build install --record /home/francisco/ros2-ws/build/monitoring_station_tfm/install.log --install-scripts $base/lib/monitoring_station_tfm --single-version-externally-managed
+[3.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/francisco/ros2-ws/src/monitoring_station_tfm' returned '0': PYTHONPATH=/home/francisco/ros2-ws/build/monitoring_station_tfm/prefix_override:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitoring_station_tfm build --build-base /home/francisco/ros2-ws/build/monitoring_station_tfm/build install --record /home/francisco/ros2-ws/build/monitoring_station_tfm/install.log --install-scripts $base/lib/monitoring_station_tfm --single-version-externally-managed
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm' for CMake module files
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm' for CMake config files
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm/bin'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/pkgconfig/monitoring_station_tfm.pc'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages'
+[3.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('monitoring_station_tfm', 'pythonpath')
+[3.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/hook/pythonpath.ps1'
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/hook/pythonpath.dsv'
+[3.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/hook/pythonpath.sh'
+[3.793s] Level 1:colcon.colcon_core.environment:checking '/home/francisco/ros2-ws/install/monitoring_station_tfm/bin'
+[3.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(monitoring_station_tfm)
+[3.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/package.ps1'
+[3.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/package.dsv'
+[3.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/package.sh'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/package.bash'
+[3.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/francisco/ros2-ws/install/monitoring_station_tfm/share/monitoring_station_tfm/package.zsh'
+[3.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/francisco/ros2-ws/install/monitoring_station_tfm/share/colcon-core/packages/monitoring_station_tfm)
+[3.805s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.807s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.825s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.825s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.877s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/francisco/ros2-ws/install/local_setup.ps1'
+[3.888s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/francisco/ros2-ws/install/_local_setup_util_ps1.py'
+[3.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/francisco/ros2-ws/install/setup.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/francisco/ros2-ws/install/local_setup.sh'
+[3.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/francisco/ros2-ws/install/_local_setup_util_sh.py'
+[3.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/francisco/ros2-ws/install/setup.sh'
+[3.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/francisco/ros2-ws/install/local_setup.bash'
+[3.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/francisco/ros2-ws/install/setup.bash'
+[3.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/francisco/ros2-ws/install/local_setup.zsh'
+[3.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/francisco/ros2-ws/install/setup.zsh'

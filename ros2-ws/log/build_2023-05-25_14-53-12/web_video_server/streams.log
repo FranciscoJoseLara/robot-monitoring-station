@@ -1,0 +1,41 @@
+[0.109s] Invoking command in '/home/francisco/ros2-ws/build/web_video_server': /usr/bin/cmake --build /home/francisco/ros2-ws/build/web_video_server -- -j4 -l4
+[1.153s] [35m[1mScanning dependencies of target web_video_server[0m
+[1.519s] [  9%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o[0m
+[30.108s] [ 18%] [32m[1mLinking CXX executable web_video_server[0m
+[34.088s] [100%] Built target web_video_server
+[34.117s] Invoked command in '/home/francisco/ros2-ws/build/web_video_server' returned '0': /usr/bin/cmake --build /home/francisco/ros2-ws/build/web_video_server -- -j4 -l4
+[34.196s] Invoking command in '/home/francisco/ros2-ws/build/web_video_server': /usr/bin/cmake --install /home/francisco/ros2-ws/build/web_video_server
+[34.234s] -- Install configuration: ""
+[34.280s] -- Installing: /home/francisco/ros2-ws/install/web_video_server/lib/web_video_server/web_video_server
+[34.287s] -- Set runtime path of "/home/francisco/ros2-ws/install/web_video_server/lib/web_video_server/web_video_server" to ""
+[34.287s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server
+[34.302s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/png_streamers.h
+[34.302s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/h264_streamer.h
+[34.303s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/multipart_stream.h
+[34.303s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/web_video_server.h
+[34.303s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[34.304s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[34.304s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/vp8_streamer.h
+[34.304s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/image_streamer.h
+[34.305s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/libav_streamer.h
+[34.305s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/vp9_streamer.h
+[34.306s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/launch
+[34.318s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/launch/web_video_server.xml
+[34.319s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server
+[34.319s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/web_video_server.yaml
+[34.320s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[34.320s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[34.321s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[34.321s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[34.321s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/path.sh
+[34.322s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/path.dsv
+[34.322s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.bash
+[34.322s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.sh
+[34.323s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.zsh
+[34.323s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.dsv
+[34.324s] -- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/package.dsv
+[34.344s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[34.344s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[34.344s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[34.344s] -- Up-to-date: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/package.xml
+[34.357s] Invoked command in '/home/francisco/ros2-ws/build/web_video_server' returned '0': /usr/bin/cmake --install /home/francisco/ros2-ws/build/web_video_server

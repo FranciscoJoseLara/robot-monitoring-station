@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.sh
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.dsv
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/client_mananger.py
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/__init__.py
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/websocket_handler.py
+Listing '/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server'...
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/ament_index/resource_index/package_run_dependencies/rosbridge_server
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/ament_index/resource_index/parent_prefix_path/rosbridge_server
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.sh
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/path.sh
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/path.dsv
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.bash
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.sh
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.zsh
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.dsv
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/package.dsv
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/ament_index/resource_index/packages/rosbridge_server
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig.cmake
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig-version.cmake
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/package.xml
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket.py
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket
+-- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/launch/rosbridge_websocket_launch.xml

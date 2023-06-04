@@ -1,0 +1,967 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (-) JobUnselected: {'identifier': 'camera_driver'}
+[0.000628] (-) JobUnselected: {'identifier': 'monitoring_station_tfm'}
+[0.000744] (-) JobUnselected: {'identifier': 'rosapi'}
+[0.000853] (-) JobUnselected: {'identifier': 'rosapi_msgs'}
+[0.000927] (-) JobUnselected: {'identifier': 'rosbridge_library'}
+[0.001087] (-) JobUnselected: {'identifier': 'rosbridge_msgs'}
+[0.001220] (-) JobUnselected: {'identifier': 'rosbridge_server'}
+[0.001382] (-) JobUnselected: {'identifier': 'rosbridge_suite'}
+[0.003781] (-) JobUnselected: {'identifier': 'rosbridge_test_msgs'}
+[0.004038] (-) JobUnselected: {'identifier': 'usb_camera_driver'}
+[0.004164] (web_video_server) JobQueued: {'identifier': 'web_video_server', 'dependencies': OrderedDict()}
+[0.004319] (web_video_server) JobStarted: {'identifier': 'web_video_server'}
+[0.035141] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'cmake'}
+[0.037496] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '/home/francisco/ros2-ws/src/web_video_server', '-DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/web_video_server'], 'cwd': '/home/francisco/ros2-ws/build/web_video_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francisco'), ('SSH_AGENT_PID', '1590'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francisco'), ('OLDPWD', '/home/francisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1400'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0d39a3cdc2b200962f9443e06465ee67'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/francisco/ros2-ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francisco'), ('JOURNAL_STREAM', '8:43278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'francisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/francisco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sony-vaio:@/tmp/.ICE-unix/1628,unix/sony-vaio:/tmp/.ICE-unix/1628'), ('INVOCATION_ID', '32280ab4276d49c49858758b4d983d54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1be08193_7449_44f9_8a08_df19a509bb41'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francisco/ros2-ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0d39a3cdc2b200962f9443e06465ee67'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/share/ament_cmake_ros:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy')]), 'shell': False}
+[0.097682] (web_video_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.098560] (-) TimerEvent: {}
+[0.199193] (-) TimerEvent: {}
+[0.299893] (-) TimerEvent: {}
+[0.305926] (web_video_server) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.306582] (web_video_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400041] (-) TimerEvent: {}
+[0.500453] (-) TimerEvent: {}
+[0.600931] (-) TimerEvent: {}
+[0.701366] (-) TimerEvent: {}
+[0.801878] (-) TimerEvent: {}
+[0.902856] (-) TimerEvent: {}
+[0.994380] (web_video_server) StdoutLine: {'line': b'-- Found async_web_server_cpp: 2.0.0 (/opt/ros/foxy/share/async_web_server_cpp/cmake)\n'}
+[1.002936] (-) TimerEvent: {}
+[1.103458] (-) TimerEvent: {}
+[1.203913] (-) TimerEvent: {}
+[1.304536] (-) TimerEvent: {}
+[1.405565] (-) TimerEvent: {}
+[1.506253] (-) TimerEvent: {}
+[1.606833] (-) TimerEvent: {}
+[1.707688] (-) TimerEvent: {}
+[1.808656] (-) TimerEvent: {}
+[1.909276] (-) TimerEvent: {}
+[2.010025] (-) TimerEvent: {}
+[2.109572] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: filesystem regex thread \n'}
+[2.110290] (-) TimerEvent: {}
+[2.211064] (-) TimerEvent: {}
+[2.312023] (-) TimerEvent: {}
+[2.356824] (web_video_server) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[2.412242] (-) TimerEvent: {}
+[2.513211] (-) TimerEvent: {}
+[2.614428] (-) TimerEvent: {}
+[2.715512] (-) TimerEvent: {}
+[2.816533] (-) TimerEvent: {}
+[2.857505] (web_video_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.916783] (-) TimerEvent: {}
+[2.924163] (web_video_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.017101] (-) TimerEvent: {}
+[3.118107] (-) TimerEvent: {}
+[3.218841] (-) TimerEvent: {}
+[3.319936] (-) TimerEvent: {}
+[3.420929] (-) TimerEvent: {}
+[3.522007] (-) TimerEvent: {}
+[3.622914] (-) TimerEvent: {}
+[3.654594] (web_video_server) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.723003] (-) TimerEvent: {}
+[3.748335] (web_video_server) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.823348] (-) TimerEvent: {}
+[3.924254] (-) TimerEvent: {}
+[4.024699] (-) TimerEvent: {}
+[4.125218] (-) TimerEvent: {}
+[4.152371] (web_video_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.225472] (-) TimerEvent: {}
+[4.326055] (-) TimerEvent: {}
+[4.426502] (-) TimerEvent: {}
+[4.526939] (-) TimerEvent: {}
+[4.627391] (-) TimerEvent: {}
+[4.727840] (-) TimerEvent: {}
+[4.828292] (-) TimerEvent: {}
+[4.889928] (web_video_server) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[4.928590] (-) TimerEvent: {}
+[5.029647] (-) TimerEvent: {}
+[5.130595] (-) TimerEvent: {}
+[5.231219] (-) TimerEvent: {}
+[5.236195] (web_video_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.241775] (web_video_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.245486] (web_video_server) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.331479] (-) TimerEvent: {}
+[5.432271] (-) TimerEvent: {}
+[5.532827] (-) TimerEvent: {}
+[5.633372] (-) TimerEvent: {}
+[5.733902] (-) TimerEvent: {}
+[5.834440] (-) TimerEvent: {}
+[5.935018] (-) TimerEvent: {}
+[6.035907] (-) TimerEvent: {}
+[6.055015] (web_video_server) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[6.064363] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[6.075040] (web_video_server) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[6.077822] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[6.136145] (-) TimerEvent: {}
+[6.149958] (web_video_server) StdoutLine: {'line': b'--   Found libavcodec, version 58.54.100\n'}
+[6.236294] (-) TimerEvent: {}
+[6.254584] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[6.327056] (web_video_server) StdoutLine: {'line': b'--   Found libavformat, version 58.29.100\n'}
+[6.336461] (-) TimerEvent: {}
+[6.435808] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[6.436666] (-) TimerEvent: {}
+[6.488898] (web_video_server) StdoutLine: {'line': b'--   Found libavutil, version 56.31.100\n'}
+[6.536812] (-) TimerEvent: {}
+[6.598471] (web_video_server) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[6.637004] (-) TimerEvent: {}
+[6.670659] (web_video_server) StdoutLine: {'line': b'--   Found libswscale, version 5.5.100\n'}
+[6.737171] (-) TimerEvent: {}
+[6.837892] (-) TimerEvent: {}
+[6.938412] (-) TimerEvent: {}
+[7.038966] (-) TimerEvent: {}
+[7.063557] (web_video_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.139295] (-) TimerEvent: {}
+[7.240388] (-) TimerEvent: {}
+[7.309721] (web_video_server) StdoutLine: {'line': b'-- Generating done\n'}
+[7.313093] (web_video_server) StdoutLine: {'line': b'-- Build files have been written to: /home/francisco/ros2-ws/build/web_video_server\n'}
+[7.334751] (web_video_server) CommandEnded: {'returncode': 0}
+[7.338022] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'build'}
+[7.344080] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/francisco/ros2-ws/build/web_video_server', '--', '-j4', '-l4'], 'cwd': '/home/francisco/ros2-ws/build/web_video_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francisco'), ('SSH_AGENT_PID', '1590'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francisco'), ('OLDPWD', '/home/francisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1400'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0d39a3cdc2b200962f9443e06465ee67'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/francisco/ros2-ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francisco'), ('JOURNAL_STREAM', '8:43278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'francisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/francisco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sony-vaio:@/tmp/.ICE-unix/1628,unix/sony-vaio:/tmp/.ICE-unix/1628'), ('INVOCATION_ID', '32280ab4276d49c49858758b4d983d54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1be08193_7449_44f9_8a08_df19a509bb41'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francisco/ros2-ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0d39a3cdc2b200962f9443e06465ee67'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/share/ament_cmake_ros:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy')]), 'shell': False}
+[7.347733] (-) TimerEvent: {}
+[7.448546] (-) TimerEvent: {}
+[7.455796] (web_video_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target web_video_server\x1b[0m\n'}
+[7.548852] (-) TimerEvent: {}
+[7.649836] (-) TimerEvent: {}
+[7.750568] (-) TimerEvent: {}
+[7.851626] (-) TimerEvent: {}
+[7.952699] (-) TimerEvent: {}
+[8.053823] (-) TimerEvent: {}
+[8.154558] (-) TimerEvent: {}
+[8.255786] (-) TimerEvent: {}
+[8.356714] (-) TimerEvent: {}
+[8.457736] (-) TimerEvent: {}
+[8.558699] (-) TimerEvent: {}
+[8.659786] (-) TimerEvent: {}
+[8.760587] (-) TimerEvent: {}
+[8.861391] (-) TimerEvent: {}
+[8.962384] (-) TimerEvent: {}
+[9.063228] (-) TimerEvent: {}
+[9.164331] (-) TimerEvent: {}
+[9.265229] (-) TimerEvent: {}
+[9.365938] (-) TimerEvent: {}
+[9.466847] (-) TimerEvent: {}
+[9.567334] (-) TimerEvent: {}
+[9.612711] (web_video_server) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o\x1b[0m\n'}
+[9.615558] (web_video_server) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o\x1b[0m\n'}
+[9.616210] (web_video_server) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o\x1b[0m\n'}
+[9.616823] (web_video_server) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o\x1b[0m\n'}
+[9.667564] (-) TimerEvent: {}
+[9.768202] (-) TimerEvent: {}
+[9.868827] (-) TimerEvent: {}
+[9.969581] (-) TimerEvent: {}
+[10.070146] (-) TimerEvent: {}
+[10.170608] (-) TimerEvent: {}
+[10.271203] (-) TimerEvent: {}
+[10.371912] (-) TimerEvent: {}
+[10.472511] (-) TimerEvent: {}
+[10.573031] (-) TimerEvent: {}
+[10.673716] (-) TimerEvent: {}
+[10.774597] (-) TimerEvent: {}
+[10.875195] (-) TimerEvent: {}
+[10.975811] (-) TimerEvent: {}
+[11.076383] (-) TimerEvent: {}
+[11.176971] (-) TimerEvent: {}
+[11.277593] (-) TimerEvent: {}
+[11.378112] (-) TimerEvent: {}
+[11.478590] (-) TimerEvent: {}
+[11.579164] (-) TimerEvent: {}
+[11.679729] (-) TimerEvent: {}
+[11.780283] (-) TimerEvent: {}
+[11.881121] (-) TimerEvent: {}
+[11.981627] (-) TimerEvent: {}
+[12.082142] (-) TimerEvent: {}
+[12.182627] (-) TimerEvent: {}
+[12.283146] (-) TimerEvent: {}
+[12.383936] (-) TimerEvent: {}
+[12.484552] (-) TimerEvent: {}
+[12.585080] (-) TimerEvent: {}
+[12.685659] (-) TimerEvent: {}
+[12.786404] (-) TimerEvent: {}
+[12.887162] (-) TimerEvent: {}
+[12.988126] (-) TimerEvent: {}
+[13.088834] (-) TimerEvent: {}
+[13.189401] (-) TimerEvent: {}
+[13.290055] (-) TimerEvent: {}
+[13.390569] (-) TimerEvent: {}
+[13.491174] (-) TimerEvent: {}
+[13.591648] (-) TimerEvent: {}
+[13.692597] (-) TimerEvent: {}
+[13.793204] (-) TimerEvent: {}
+[13.894198] (-) TimerEvent: {}
+[13.994885] (-) TimerEvent: {}
+[14.095451] (-) TimerEvent: {}
+[14.195983] (-) TimerEvent: {}
+[14.296511] (-) TimerEvent: {}
+[14.400759] (-) TimerEvent: {}
+[14.501399] (-) TimerEvent: {}
+[14.602329] (-) TimerEvent: {}
+[14.702860] (-) TimerEvent: {}
+[14.803550] (-) TimerEvent: {}
+[14.904180] (-) TimerEvent: {}
+[15.004832] (-) TimerEvent: {}
+[15.105406] (-) TimerEvent: {}
+[15.205962] (-) TimerEvent: {}
+[15.306602] (-) TimerEvent: {}
+[15.407575] (-) TimerEvent: {}
+[15.508145] (-) TimerEvent: {}
+[15.608570] (-) TimerEvent: {}
+[15.709019] (-) TimerEvent: {}
+[15.809575] (-) TimerEvent: {}
+[15.910125] (-) TimerEvent: {}
+[16.010734] (-) TimerEvent: {}
+[16.111288] (-) TimerEvent: {}
+[16.211829] (-) TimerEvent: {}
+[16.312495] (-) TimerEvent: {}
+[16.413164] (-) TimerEvent: {}
+[16.513656] (-) TimerEvent: {}
+[16.614217] (-) TimerEvent: {}
+[16.714673] (-) TimerEvent: {}
+[16.815150] (-) TimerEvent: {}
+[16.915721] (-) TimerEvent: {}
+[17.016278] (-) TimerEvent: {}
+[17.116827] (-) TimerEvent: {}
+[17.217400] (-) TimerEvent: {}
+[17.317851] (-) TimerEvent: {}
+[17.418506] (-) TimerEvent: {}
+[17.519352] (-) TimerEvent: {}
+[17.619874] (-) TimerEvent: {}
+[17.720573] (-) TimerEvent: {}
+[17.821250] (-) TimerEvent: {}
+[17.921986] (-) TimerEvent: {}
+[18.022667] (-) TimerEvent: {}
+[18.123317] (-) TimerEvent: {}
+[18.223906] (-) TimerEvent: {}
+[18.324888] (-) TimerEvent: {}
+[18.425801] (-) TimerEvent: {}
+[18.526541] (-) TimerEvent: {}
+[18.627053] (-) TimerEvent: {}
+[18.727688] (-) TimerEvent: {}
+[18.828284] (-) TimerEvent: {}
+[18.928940] (-) TimerEvent: {}
+[19.029713] (-) TimerEvent: {}
+[19.130304] (-) TimerEvent: {}
+[19.230767] (-) TimerEvent: {}
+[19.331654] (-) TimerEvent: {}
+[19.432316] (-) TimerEvent: {}
+[19.532869] (-) TimerEvent: {}
+[19.633518] (-) TimerEvent: {}
+[19.734636] (-) TimerEvent: {}
+[19.835179] (-) TimerEvent: {}
+[19.935705] (-) TimerEvent: {}
+[20.036238] (-) TimerEvent: {}
+[20.137567] (-) TimerEvent: {}
+[20.238165] (-) TimerEvent: {}
+[20.338719] (-) TimerEvent: {}
+[20.439617] (-) TimerEvent: {}
+[20.540146] (-) TimerEvent: {}
+[20.640910] (-) TimerEvent: {}
+[20.741701] (-) TimerEvent: {}
+[20.842647] (-) TimerEvent: {}
+[20.943111] (-) TimerEvent: {}
+[21.043780] (-) TimerEvent: {}
+[21.144372] (-) TimerEvent: {}
+[21.245111] (-) TimerEvent: {}
+[21.346063] (-) TimerEvent: {}
+[21.446617] (-) TimerEvent: {}
+[21.547524] (-) TimerEvent: {}
+[21.648065] (-) TimerEvent: {}
+[21.748826] (-) TimerEvent: {}
+[21.849420] (-) TimerEvent: {}
+[21.949931] (-) TimerEvent: {}
+[22.050457] (-) TimerEvent: {}
+[22.150962] (-) TimerEvent: {}
+[22.251506] (-) TimerEvent: {}
+[22.352070] (-) TimerEvent: {}
+[22.452665] (-) TimerEvent: {}
+[22.553285] (-) TimerEvent: {}
+[22.653923] (-) TimerEvent: {}
+[22.754535] (-) TimerEvent: {}
+[22.855147] (-) TimerEvent: {}
+[22.955761] (-) TimerEvent: {}
+[23.056368] (-) TimerEvent: {}
+[23.156980] (-) TimerEvent: {}
+[23.257572] (-) TimerEvent: {}
+[23.358190] (-) TimerEvent: {}
+[23.458782] (-) TimerEvent: {}
+[23.559352] (-) TimerEvent: {}
+[23.659940] (-) TimerEvent: {}
+[23.760499] (-) TimerEvent: {}
+[23.861078] (-) TimerEvent: {}
+[23.961654] (-) TimerEvent: {}
+[24.062230] (-) TimerEvent: {}
+[24.162825] (-) TimerEvent: {}
+[24.263396] (-) TimerEvent: {}
+[24.363984] (-) TimerEvent: {}
+[24.464577] (-) TimerEvent: {}
+[24.565181] (-) TimerEvent: {}
+[24.665754] (-) TimerEvent: {}
+[24.766325] (-) TimerEvent: {}
+[24.866893] (-) TimerEvent: {}
+[24.967468] (-) TimerEvent: {}
+[25.068042] (-) TimerEvent: {}
+[25.168638] (-) TimerEvent: {}
+[25.269235] (-) TimerEvent: {}
+[25.369816] (-) TimerEvent: {}
+[25.470380] (-) TimerEvent: {}
+[25.570945] (-) TimerEvent: {}
+[25.671540] (-) TimerEvent: {}
+[25.772107] (-) TimerEvent: {}
+[25.872652] (-) TimerEvent: {}
+[25.973170] (-) TimerEvent: {}
+[26.073683] (-) TimerEvent: {}
+[26.174183] (-) TimerEvent: {}
+[26.274720] (-) TimerEvent: {}
+[26.375276] (-) TimerEvent: {}
+[26.475831] (-) TimerEvent: {}
+[26.576395] (-) TimerEvent: {}
+[26.676967] (-) TimerEvent: {}
+[26.777538] (-) TimerEvent: {}
+[26.878101] (-) TimerEvent: {}
+[26.978664] (-) TimerEvent: {}
+[27.079247] (-) TimerEvent: {}
+[27.179815] (-) TimerEvent: {}
+[27.280383] (-) TimerEvent: {}
+[27.381011] (-) TimerEvent: {}
+[27.481580] (-) TimerEvent: {}
+[27.582140] (-) TimerEvent: {}
+[27.682701] (-) TimerEvent: {}
+[27.783316] (-) TimerEvent: {}
+[27.883942] (-) TimerEvent: {}
+[27.984539] (-) TimerEvent: {}
+[28.085173] (-) TimerEvent: {}
+[28.185782] (-) TimerEvent: {}
+[28.286379] (-) TimerEvent: {}
+[28.387005] (-) TimerEvent: {}
+[28.487663] (-) TimerEvent: {}
+[28.588241] (-) TimerEvent: {}
+[28.688807] (-) TimerEvent: {}
+[28.789379] (-) TimerEvent: {}
+[28.889950] (-) TimerEvent: {}
+[28.990515] (-) TimerEvent: {}
+[29.091087] (-) TimerEvent: {}
+[29.191669] (-) TimerEvent: {}
+[29.292292] (-) TimerEvent: {}
+[29.392869] (-) TimerEvent: {}
+[29.493429] (-) TimerEvent: {}
+[29.594001] (-) TimerEvent: {}
+[29.694551] (-) TimerEvent: {}
+[29.795110] (-) TimerEvent: {}
+[29.895696] (-) TimerEvent: {}
+[29.996273] (-) TimerEvent: {}
+[30.096851] (-) TimerEvent: {}
+[30.197416] (-) TimerEvent: {}
+[30.297979] (-) TimerEvent: {}
+[30.398596] (-) TimerEvent: {}
+[30.499168] (-) TimerEvent: {}
+[30.599746] (-) TimerEvent: {}
+[30.700310] (-) TimerEvent: {}
+[30.800936] (-) TimerEvent: {}
+[30.901515] (-) TimerEvent: {}
+[31.002074] (-) TimerEvent: {}
+[31.102646] (-) TimerEvent: {}
+[31.203218] (-) TimerEvent: {}
+[31.303793] (-) TimerEvent: {}
+[31.404357] (-) TimerEvent: {}
+[31.504943] (-) TimerEvent: {}
+[31.605515] (-) TimerEvent: {}
+[31.706080] (-) TimerEvent: {}
+[31.806682] (-) TimerEvent: {}
+[31.907249] (-) TimerEvent: {}
+[32.007876] (-) TimerEvent: {}
+[32.108489] (-) TimerEvent: {}
+[32.209116] (-) TimerEvent: {}
+[32.309716] (-) TimerEvent: {}
+[32.410271] (-) TimerEvent: {}
+[32.510859] (-) TimerEvent: {}
+[32.611447] (-) TimerEvent: {}
+[32.712046] (-) TimerEvent: {}
+[32.812656] (-) TimerEvent: {}
+[32.913271] (-) TimerEvent: {}
+[33.013849] (-) TimerEvent: {}
+[33.114426] (-) TimerEvent: {}
+[33.214988] (-) TimerEvent: {}
+[33.315513] (-) TimerEvent: {}
+[33.416017] (-) TimerEvent: {}
+[33.516540] (-) TimerEvent: {}
+[33.617046] (-) TimerEvent: {}
+[33.717557] (-) TimerEvent: {}
+[33.818051] (-) TimerEvent: {}
+[33.918560] (-) TimerEvent: {}
+[34.019120] (-) TimerEvent: {}
+[34.119675] (-) TimerEvent: {}
+[34.220247] (-) TimerEvent: {}
+[34.320818] (-) TimerEvent: {}
+[34.421396] (-) TimerEvent: {}
+[34.521948] (-) TimerEvent: {}
+[34.622515] (-) TimerEvent: {}
+[34.723087] (-) TimerEvent: {}
+[34.823685] (-) TimerEvent: {}
+[34.924275] (-) TimerEvent: {}
+[35.024880] (-) TimerEvent: {}
+[35.125427] (-) TimerEvent: {}
+[35.225971] (-) TimerEvent: {}
+[35.326579] (-) TimerEvent: {}
+[35.427180] (-) TimerEvent: {}
+[35.527781] (-) TimerEvent: {}
+[35.628371] (-) TimerEvent: {}
+[35.728983] (-) TimerEvent: {}
+[35.792196] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kweb_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.792895] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:65:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint av_lockmgr_register(int (*)(void**, AVLockOp))\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.793283] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[35.793668] (web_video_server) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[35.794596] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:11\x1b[m\x1b[K,\n'}
+[35.794975] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.795320] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.795653] (web_video_server) StderrLine: {'line': b' 6163 | int \x1b[01;36m\x1b[Kav_lockmgr_register\x1b[m\x1b[K(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[35.795988] (web_video_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.796315] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:65:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint av_lockmgr_register(int (*)(void**, AVLockOp))\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.796648] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[35.796976] (web_video_server) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[35.797299] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:11\x1b[m\x1b[K,\n'}
+[35.797641] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.797988] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.798306] (web_video_server) StderrLine: {'line': b' 6163 | int \x1b[01;36m\x1b[Kav_lockmgr_register\x1b[m\x1b[K(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[35.798733] (web_video_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.799056] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:66:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid av_register_all()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.799390] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[35.799722] (web_video_server) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[35.800038] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[35.800358] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.800675] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.800997] (web_video_server) StderrLine: {'line': b' 2050 | void \x1b[01;36m\x1b[Kav_register_all\x1b[m\x1b[K(void);\n'}
+[35.801323] (web_video_server) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.802462] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:66:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid av_register_all()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.802793] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[35.803113] (web_video_server) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[35.803428] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[35.803748] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.804066] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.804383] (web_video_server) StderrLine: {'line': b' 2050 | void \x1b[01;36m\x1b[Kav_register_all\x1b[m\x1b[K(void);\n'}
+[35.804699] (web_video_server) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.805004] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.817433] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.818030] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[35.818425] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.818811] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[35.819162] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.819510] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.819847] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[35.820178] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.820533] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.820872] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[35.821199] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.821563] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[35.821891] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.822214] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.822536] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[35.822853] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.823169] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[35.823487] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[35.823802] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.824116] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[35.824455] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/francisco/ros2-ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[35.824773] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[35.825093] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[35.825434] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[35.829138] (-) TimerEvent: {}
+[35.929710] (-) TimerEvent: {}
+[36.030282] (-) TimerEvent: {}
+[36.130879] (-) TimerEvent: {}
+[36.231480] (-) TimerEvent: {}
+[36.332090] (-) TimerEvent: {}
+[36.432718] (-) TimerEvent: {}
+[36.533381] (-) TimerEvent: {}
+[36.634021] (-) TimerEvent: {}
+[36.734673] (-) TimerEvent: {}
+[36.835315] (-) TimerEvent: {}
+[36.935944] (-) TimerEvent: {}
+[37.036548] (-) TimerEvent: {}
+[37.137191] (-) TimerEvent: {}
+[37.237796] (-) TimerEvent: {}
+[37.338367] (-) TimerEvent: {}
+[37.438945] (-) TimerEvent: {}
+[37.539560] (-) TimerEvent: {}
+[37.640155] (-) TimerEvent: {}
+[37.740728] (-) TimerEvent: {}
+[37.841296] (-) TimerEvent: {}
+[37.941984] (-) TimerEvent: {}
+[38.042613] (-) TimerEvent: {}
+[38.143205] (-) TimerEvent: {}
+[38.243814] (-) TimerEvent: {}
+[38.344382] (-) TimerEvent: {}
+[38.444957] (-) TimerEvent: {}
+[38.545526] (-) TimerEvent: {}
+[38.646137] (-) TimerEvent: {}
+[38.746744] (-) TimerEvent: {}
+[38.847313] (-) TimerEvent: {}
+[38.947967] (-) TimerEvent: {}
+[39.048605] (-) TimerEvent: {}
+[39.149184] (-) TimerEvent: {}
+[39.249801] (-) TimerEvent: {}
+[39.350418] (-) TimerEvent: {}
+[39.451018] (-) TimerEvent: {}
+[39.551633] (-) TimerEvent: {}
+[39.652232] (-) TimerEvent: {}
+[39.752852] (-) TimerEvent: {}
+[39.853421] (-) TimerEvent: {}
+[39.954016] (-) TimerEvent: {}
+[39.957489] (web_video_server) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o\x1b[0m\n'}
+[40.054161] (-) TimerEvent: {}
+[40.154735] (-) TimerEvent: {}
+[40.255315] (-) TimerEvent: {}
+[40.355917] (-) TimerEvent: {}
+[40.456497] (-) TimerEvent: {}
+[40.557071] (-) TimerEvent: {}
+[40.657654] (-) TimerEvent: {}
+[40.758257] (-) TimerEvent: {}
+[40.858840] (-) TimerEvent: {}
+[40.959433] (-) TimerEvent: {}
+[40.967007] (web_video_server) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp9_streamer.cpp.o\x1b[0m\n'}
+[41.059585] (-) TimerEvent: {}
+[41.160309] (-) TimerEvent: {}
+[41.261059] (-) TimerEvent: {}
+[41.309944] (web_video_server) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/multipart_stream.cpp.o\x1b[0m\n'}
+[41.361221] (-) TimerEvent: {}
+[41.462031] (-) TimerEvent: {}
+[41.562715] (-) TimerEvent: {}
+[41.663450] (-) TimerEvent: {}
+[41.764191] (-) TimerEvent: {}
+[41.864791] (-) TimerEvent: {}
+[41.965390] (-) TimerEvent: {}
+[42.065961] (-) TimerEvent: {}
+[42.166700] (-) TimerEvent: {}
+[42.267285] (-) TimerEvent: {}
+[42.367867] (-) TimerEvent: {}
+[42.468450] (-) TimerEvent: {}
+[42.569041] (-) TimerEvent: {}
+[42.669622] (-) TimerEvent: {}
+[42.770215] (-) TimerEvent: {}
+[42.870786] (-) TimerEvent: {}
+[42.971344] (-) TimerEvent: {}
+[43.083628] (-) TimerEvent: {}
+[43.189768] (-) TimerEvent: {}
+[43.290520] (-) TimerEvent: {}
+[43.391094] (-) TimerEvent: {}
+[43.491667] (-) TimerEvent: {}
+[43.592250] (-) TimerEvent: {}
+[43.692794] (-) TimerEvent: {}
+[43.793574] (-) TimerEvent: {}
+[43.894320] (-) TimerEvent: {}
+[43.995056] (-) TimerEvent: {}
+[44.095787] (-) TimerEvent: {}
+[44.196536] (-) TimerEvent: {}
+[44.297345] (-) TimerEvent: {}
+[44.398085] (-) TimerEvent: {}
+[44.498785] (-) TimerEvent: {}
+[44.599515] (-) TimerEvent: {}
+[44.700102] (-) TimerEvent: {}
+[44.800706] (-) TimerEvent: {}
+[44.901338] (-) TimerEvent: {}
+[45.001947] (-) TimerEvent: {}
+[45.102545] (-) TimerEvent: {}
+[45.203150] (-) TimerEvent: {}
+[45.214993] (web_video_server) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o\x1b[0m\n'}
+[45.303306] (-) TimerEvent: {}
+[45.403872] (-) TimerEvent: {}
+[45.504432] (-) TimerEvent: {}
+[45.605203] (-) TimerEvent: {}
+[45.705833] (-) TimerEvent: {}
+[45.806410] (-) TimerEvent: {}
+[45.906977] (-) TimerEvent: {}
+[46.007576] (-) TimerEvent: {}
+[46.108176] (-) TimerEvent: {}
+[46.208774] (-) TimerEvent: {}
+[46.309391] (-) TimerEvent: {}
+[46.409986] (-) TimerEvent: {}
+[46.510578] (-) TimerEvent: {}
+[46.611194] (-) TimerEvent: {}
+[46.711767] (-) TimerEvent: {}
+[46.812391] (-) TimerEvent: {}
+[46.912985] (-) TimerEvent: {}
+[47.013582] (-) TimerEvent: {}
+[47.114176] (-) TimerEvent: {}
+[47.214771] (-) TimerEvent: {}
+[47.315362] (-) TimerEvent: {}
+[47.415962] (-) TimerEvent: {}
+[47.516551] (-) TimerEvent: {}
+[47.617139] (-) TimerEvent: {}
+[47.717800] (-) TimerEvent: {}
+[47.818385] (-) TimerEvent: {}
+[47.918992] (-) TimerEvent: {}
+[48.019586] (-) TimerEvent: {}
+[48.120179] (-) TimerEvent: {}
+[48.220764] (-) TimerEvent: {}
+[48.321406] (-) TimerEvent: {}
+[48.421926] (-) TimerEvent: {}
+[48.522477] (-) TimerEvent: {}
+[48.623023] (-) TimerEvent: {}
+[48.723559] (-) TimerEvent: {}
+[48.824125] (-) TimerEvent: {}
+[48.924705] (-) TimerEvent: {}
+[49.025338] (-) TimerEvent: {}
+[49.125932] (-) TimerEvent: {}
+[49.226535] (-) TimerEvent: {}
+[49.327109] (-) TimerEvent: {}
+[49.427713] (-) TimerEvent: {}
+[49.528320] (-) TimerEvent: {}
+[49.628933] (-) TimerEvent: {}
+[49.729547] (-) TimerEvent: {}
+[49.830172] (-) TimerEvent: {}
+[49.930774] (-) TimerEvent: {}
+[50.031401] (-) TimerEvent: {}
+[50.131998] (-) TimerEvent: {}
+[50.232586] (-) TimerEvent: {}
+[50.333224] (-) TimerEvent: {}
+[50.433845] (-) TimerEvent: {}
+[50.534468] (-) TimerEvent: {}
+[50.635067] (-) TimerEvent: {}
+[50.735664] (-) TimerEvent: {}
+[50.836263] (-) TimerEvent: {}
+[50.936851] (-) TimerEvent: {}
+[51.037451] (-) TimerEvent: {}
+[51.138066] (-) TimerEvent: {}
+[51.238707] (-) TimerEvent: {}
+[51.339320] (-) TimerEvent: {}
+[51.439954] (-) TimerEvent: {}
+[51.540559] (-) TimerEvent: {}
+[51.641155] (-) TimerEvent: {}
+[51.741758] (-) TimerEvent: {}
+[51.842339] (-) TimerEvent: {}
+[51.942957] (-) TimerEvent: {}
+[52.043533] (-) TimerEvent: {}
+[52.144114] (-) TimerEvent: {}
+[52.244904] (-) TimerEvent: {}
+[52.345517] (-) TimerEvent: {}
+[52.446148] (-) TimerEvent: {}
+[52.546751] (-) TimerEvent: {}
+[52.647324] (-) TimerEvent: {}
+[52.747887] (-) TimerEvent: {}
+[52.848482] (-) TimerEvent: {}
+[52.949075] (-) TimerEvent: {}
+[53.049677] (-) TimerEvent: {}
+[53.150254] (-) TimerEvent: {}
+[53.250818] (-) TimerEvent: {}
+[53.351419] (-) TimerEvent: {}
+[53.452030] (-) TimerEvent: {}
+[53.552606] (-) TimerEvent: {}
+[53.653189] (-) TimerEvent: {}
+[53.753980] (-) TimerEvent: {}
+[53.854726] (-) TimerEvent: {}
+[53.955474] (-) TimerEvent: {}
+[54.056247] (-) TimerEvent: {}
+[54.157029] (-) TimerEvent: {}
+[54.257630] (-) TimerEvent: {}
+[54.358222] (-) TimerEvent: {}
+[54.458814] (-) TimerEvent: {}
+[54.559396] (-) TimerEvent: {}
+[54.659959] (-) TimerEvent: {}
+[54.760554] (-) TimerEvent: {}
+[54.861153] (-) TimerEvent: {}
+[54.961784] (-) TimerEvent: {}
+[55.062431] (-) TimerEvent: {}
+[55.163147] (-) TimerEvent: {}
+[55.263861] (-) TimerEvent: {}
+[55.364545] (-) TimerEvent: {}
+[55.465607] (-) TimerEvent: {}
+[55.566195] (-) TimerEvent: {}
+[55.669435] (-) TimerEvent: {}
+[55.770403] (-) TimerEvent: {}
+[55.871024] (-) TimerEvent: {}
+[55.971631] (-) TimerEvent: {}
+[56.072236] (-) TimerEvent: {}
+[56.172837] (-) TimerEvent: {}
+[56.218483] (web_video_server) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o\x1b[0m\n'}
+[56.278551] (-) TimerEvent: {}
+[56.379201] (-) TimerEvent: {}
+[56.479888] (-) TimerEvent: {}
+[56.580613] (-) TimerEvent: {}
+[56.681338] (-) TimerEvent: {}
+[56.781864] (-) TimerEvent: {}
+[56.882450] (-) TimerEvent: {}
+[56.983039] (-) TimerEvent: {}
+[57.085087] (-) TimerEvent: {}
+[57.185638] (-) TimerEvent: {}
+[57.286223] (-) TimerEvent: {}
+[57.386830] (-) TimerEvent: {}
+[57.487436] (-) TimerEvent: {}
+[57.588052] (-) TimerEvent: {}
+[57.688667] (-) TimerEvent: {}
+[57.789260] (-) TimerEvent: {}
+[57.889860] (-) TimerEvent: {}
+[57.990441] (-) TimerEvent: {}
+[58.091026] (-) TimerEvent: {}
+[58.191640] (-) TimerEvent: {}
+[58.292278] (-) TimerEvent: {}
+[58.392884] (-) TimerEvent: {}
+[58.493512] (-) TimerEvent: {}
+[58.594111] (-) TimerEvent: {}
+[58.694714] (-) TimerEvent: {}
+[58.795324] (-) TimerEvent: {}
+[58.895936] (-) TimerEvent: {}
+[58.996568] (-) TimerEvent: {}
+[59.105450] (-) TimerEvent: {}
+[59.206036] (-) TimerEvent: {}
+[59.306638] (-) TimerEvent: {}
+[59.407239] (-) TimerEvent: {}
+[59.507831] (-) TimerEvent: {}
+[59.608449] (-) TimerEvent: {}
+[59.709748] (-) TimerEvent: {}
+[59.810348] (-) TimerEvent: {}
+[59.910966] (-) TimerEvent: {}
+[60.011597] (-) TimerEvent: {}
+[60.112235] (-) TimerEvent: {}
+[60.212952] (-) TimerEvent: {}
+[60.313734] (-) TimerEvent: {}
+[60.414505] (-) TimerEvent: {}
+[60.515319] (-) TimerEvent: {}
+[60.616106] (-) TimerEvent: {}
+[60.716893] (-) TimerEvent: {}
+[60.817486] (-) TimerEvent: {}
+[60.918089] (-) TimerEvent: {}
+[61.018689] (-) TimerEvent: {}
+[61.119302] (-) TimerEvent: {}
+[61.219912] (-) TimerEvent: {}
+[61.244870] (web_video_server) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o\x1b[0m\n'}
+[61.320504] (-) TimerEvent: {}
+[61.421112] (-) TimerEvent: {}
+[61.521721] (-) TimerEvent: {}
+[61.622319] (-) TimerEvent: {}
+[61.722922] (-) TimerEvent: {}
+[61.823512] (-) TimerEvent: {}
+[61.924089] (-) TimerEvent: {}
+[62.024711] (-) TimerEvent: {}
+[62.125281] (-) TimerEvent: {}
+[62.225869] (-) TimerEvent: {}
+[62.326451] (-) TimerEvent: {}
+[62.427059] (-) TimerEvent: {}
+[62.527635] (-) TimerEvent: {}
+[62.628230] (-) TimerEvent: {}
+[62.728766] (-) TimerEvent: {}
+[62.829392] (-) TimerEvent: {}
+[62.930190] (-) TimerEvent: {}
+[63.037430] (-) TimerEvent: {}
+[63.145433] (-) TimerEvent: {}
+[63.245999] (-) TimerEvent: {}
+[63.353447] (-) TimerEvent: {}
+[63.460773] (-) TimerEvent: {}
+[63.561659] (-) TimerEvent: {}
+[63.662439] (-) TimerEvent: {}
+[63.763231] (-) TimerEvent: {}
+[63.864074] (-) TimerEvent: {}
+[63.964964] (-) TimerEvent: {}
+[64.065799] (-) TimerEvent: {}
+[64.166634] (-) TimerEvent: {}
+[64.267432] (-) TimerEvent: {}
+[64.368385] (-) TimerEvent: {}
+[64.469269] (-) TimerEvent: {}
+[64.570133] (-) TimerEvent: {}
+[64.670955] (-) TimerEvent: {}
+[64.771785] (-) TimerEvent: {}
+[64.872612] (-) TimerEvent: {}
+[64.975166] (-) TimerEvent: {}
+[65.075952] (-) TimerEvent: {}
+[65.176782] (-) TimerEvent: {}
+[65.277575] (-) TimerEvent: {}
+[65.378298] (-) TimerEvent: {}
+[65.479070] (-) TimerEvent: {}
+[65.579848] (-) TimerEvent: {}
+[65.681344] (-) TimerEvent: {}
+[65.782094] (-) TimerEvent: {}
+[65.882871] (-) TimerEvent: {}
+[65.983659] (-) TimerEvent: {}
+[66.084414] (-) TimerEvent: {}
+[66.185184] (-) TimerEvent: {}
+[66.285998] (-) TimerEvent: {}
+[66.386777] (-) TimerEvent: {}
+[66.487557] (-) TimerEvent: {}
+[66.588335] (-) TimerEvent: {}
+[66.689122] (-) TimerEvent: {}
+[66.789902] (-) TimerEvent: {}
+[66.890694] (-) TimerEvent: {}
+[66.991524] (-) TimerEvent: {}
+[67.092308] (-) TimerEvent: {}
+[67.193136] (-) TimerEvent: {}
+[67.293975] (-) TimerEvent: {}
+[67.394783] (-) TimerEvent: {}
+[67.495597] (-) TimerEvent: {}
+[67.596369] (-) TimerEvent: {}
+[67.697094] (-) TimerEvent: {}
+[67.797868] (-) TimerEvent: {}
+[67.898620] (-) TimerEvent: {}
+[67.999371] (-) TimerEvent: {}
+[68.100128] (-) TimerEvent: {}
+[68.200882] (-) TimerEvent: {}
+[68.301642] (-) TimerEvent: {}
+[68.402412] (-) TimerEvent: {}
+[68.503146] (-) TimerEvent: {}
+[68.603903] (-) TimerEvent: {}
+[68.704662] (-) TimerEvent: {}
+[68.805448] (-) TimerEvent: {}
+[68.906182] (-) TimerEvent: {}
+[69.006942] (-) TimerEvent: {}
+[69.107543] (-) TimerEvent: {}
+[69.208132] (-) TimerEvent: {}
+[69.308720] (-) TimerEvent: {}
+[69.409318] (-) TimerEvent: {}
+[69.509854] (-) TimerEvent: {}
+[69.610445] (-) TimerEvent: {}
+[69.710984] (-) TimerEvent: {}
+[69.811549] (-) TimerEvent: {}
+[69.912132] (-) TimerEvent: {}
+[70.012720] (-) TimerEvent: {}
+[70.113339] (-) TimerEvent: {}
+[70.213905] (-) TimerEvent: {}
+[70.314535] (-) TimerEvent: {}
+[70.415106] (-) TimerEvent: {}
+[70.515712] (-) TimerEvent: {}
+[70.616306] (-) TimerEvent: {}
+[70.716891] (-) TimerEvent: {}
+[70.817472] (-) TimerEvent: {}
+[70.918008] (-) TimerEvent: {}
+[71.018556] (-) TimerEvent: {}
+[71.119113] (-) TimerEvent: {}
+[71.223146] (-) TimerEvent: {}
+[71.323706] (-) TimerEvent: {}
+[71.424487] (-) TimerEvent: {}
+[71.525246] (-) TimerEvent: {}
+[71.626578] (-) TimerEvent: {}
+[71.727690] (-) TimerEvent: {}
+[71.828404] (-) TimerEvent: {}
+[71.929138] (-) TimerEvent: {}
+[72.029880] (-) TimerEvent: {}
+[72.130616] (-) TimerEvent: {}
+[72.231372] (-) TimerEvent: {}
+[72.332161] (-) TimerEvent: {}
+[72.432883] (-) TimerEvent: {}
+[72.533661] (-) TimerEvent: {}
+[72.634351] (-) TimerEvent: {}
+[72.735096] (-) TimerEvent: {}
+[72.835835] (-) TimerEvent: {}
+[72.936562] (-) TimerEvent: {}
+[73.037294] (-) TimerEvent: {}
+[73.138050] (-) TimerEvent: {}
+[73.238820] (-) TimerEvent: {}
+[73.339364] (-) TimerEvent: {}
+[73.439905] (-) TimerEvent: {}
+[73.540418] (-) TimerEvent: {}
+[73.640924] (-) TimerEvent: {}
+[73.741456] (-) TimerEvent: {}
+[73.841990] (-) TimerEvent: {}
+[73.942597] (-) TimerEvent: {}
+[74.043497] (-) TimerEvent: {}
+[74.144154] (-) TimerEvent: {}
+[74.244733] (-) TimerEvent: {}
+[74.345698] (-) TimerEvent: {}
+[74.446302] (-) TimerEvent: {}
+[74.547011] (-) TimerEvent: {}
+[74.647725] (-) TimerEvent: {}
+[74.748341] (-) TimerEvent: {}
+[74.849110] (-) TimerEvent: {}
+[74.949752] (-) TimerEvent: {}
+[75.050421] (-) TimerEvent: {}
+[75.150985] (-) TimerEvent: {}
+[75.251642] (-) TimerEvent: {}
+[75.352307] (-) TimerEvent: {}
+[75.453006] (-) TimerEvent: {}
+[75.553773] (-) TimerEvent: {}
+[75.654447] (-) TimerEvent: {}
+[75.755269] (-) TimerEvent: {}
+[75.855880] (-) TimerEvent: {}
+[75.956392] (-) TimerEvent: {}
+[76.056960] (-) TimerEvent: {}
+[76.157465] (-) TimerEvent: {}
+[76.257991] (-) TimerEvent: {}
+[76.358475] (-) TimerEvent: {}
+[76.458967] (-) TimerEvent: {}
+[76.559530] (-) TimerEvent: {}
+[76.660018] (-) TimerEvent: {}
+[76.760512] (-) TimerEvent: {}
+[76.861034] (-) TimerEvent: {}
+[76.961612] (-) TimerEvent: {}
+[77.062111] (-) TimerEvent: {}
+[77.162592] (-) TimerEvent: {}
+[77.263048] (-) TimerEvent: {}
+[77.363526] (-) TimerEvent: {}
+[77.464001] (-) TimerEvent: {}
+[77.564476] (-) TimerEvent: {}
+[77.664934] (-) TimerEvent: {}
+[77.765410] (-) TimerEvent: {}
+[77.865876] (-) TimerEvent: {}
+[77.966349] (-) TimerEvent: {}
+[78.066831] (-) TimerEvent: {}
+[78.167313] (-) TimerEvent: {}
+[78.267784] (-) TimerEvent: {}
+[78.368268] (-) TimerEvent: {}
+[78.468774] (-) TimerEvent: {}
+[78.569258] (-) TimerEvent: {}
+[78.669767] (-) TimerEvent: {}
+[78.770264] (-) TimerEvent: {}
+[78.870799] (-) TimerEvent: {}
+[78.971260] (-) TimerEvent: {}
+[79.071724] (-) TimerEvent: {}
+[79.172179] (-) TimerEvent: {}
+[79.272649] (-) TimerEvent: {}
+[79.373110] (-) TimerEvent: {}
+[79.473599] (-) TimerEvent: {}
+[79.574094] (-) TimerEvent: {}
+[79.628547] (web_video_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable web_video_server\x1b[0m\n'}
+[79.674285] (-) TimerEvent: {}
+[79.774830] (-) TimerEvent: {}
+[79.875379] (-) TimerEvent: {}
+[79.975954] (-) TimerEvent: {}
+[80.076650] (-) TimerEvent: {}
+[80.177536] (-) TimerEvent: {}
+[80.278066] (-) TimerEvent: {}
+[80.378729] (-) TimerEvent: {}
+[80.479671] (-) TimerEvent: {}
+[80.580226] (-) TimerEvent: {}
+[80.680778] (-) TimerEvent: {}
+[80.781345] (-) TimerEvent: {}
+[80.881842] (-) TimerEvent: {}
+[80.982335] (-) TimerEvent: {}
+[81.082836] (-) TimerEvent: {}
+[81.183353] (-) TimerEvent: {}
+[81.283884] (-) TimerEvent: {}
+[81.384385] (-) TimerEvent: {}
+[81.484905] (-) TimerEvent: {}
+[81.585415] (-) TimerEvent: {}
+[81.685958] (-) TimerEvent: {}
+[81.689347] (web_video_server) StdoutLine: {'line': b'[100%] Built target web_video_server\n'}
+[81.713453] (web_video_server) CommandEnded: {'returncode': 0}
+[81.786199] (-) TimerEvent: {}
+[81.824912] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'install'}
+[81.856897] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/francisco/ros2-ws/build/web_video_server'], 'cwd': '/home/francisco/ros2-ws/build/web_video_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francisco'), ('SSH_AGENT_PID', '1590'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francisco'), ('OLDPWD', '/home/francisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1400'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0d39a3cdc2b200962f9443e06465ee67'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/francisco/ros2-ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francisco'), ('JOURNAL_STREAM', '8:43278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'francisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/francisco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sony-vaio:@/tmp/.ICE-unix/1628,unix/sony-vaio:/tmp/.ICE-unix/1628'), ('INVOCATION_ID', '32280ab4276d49c49858758b4d983d54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1be08193_7449_44f9_8a08_df19a509bb41'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francisco/ros2-ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0d39a3cdc2b200962f9443e06465ee67'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/rosapi_msgs/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages:/home/francisco/ros2-ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/share/ament_cmake_ros:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/home/francisco/ros2-ws/install/camera_driver:/opt/ros/foxy')]), 'shell': False}
+[81.877951] (web_video_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[81.878584] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/lib/web_video_server/web_video_server\n'}
+[81.885080] (web_video_server) StdoutLine: {'line': b'-- Set runtime path of "/home/francisco/ros2-ws/install/web_video_server/lib/web_video_server/web_video_server" to ""\n'}
+[81.885709] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server\n'}
+[81.886145] (-) TimerEvent: {}
+[81.886535] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/png_streamers.h\n'}
+[81.887014] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/h264_streamer.h\n'}
+[81.887348] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/multipart_stream.h\n'}
+[81.887806] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/web_video_server.h\n'}
+[81.888176] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/ros_compressed_streamer.h\n'}
+[81.888474] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/jpeg_streamers.h\n'}
+[81.889500] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/vp8_streamer.h\n'}
+[81.889829] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/image_streamer.h\n'}
+[81.890220] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/libav_streamer.h\n'}
+[81.890550] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/include/web_video_server/vp9_streamer.h\n'}
+[81.890960] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server\n'}
+[81.891309] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server\n'}
+[81.891627] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh\n'}
+[81.891977] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv\n'}
+[81.892336] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/path.sh\n'}
+[81.892680] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/environment/path.dsv\n'}
+[81.892989] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.bash\n'}
+[81.893358] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.sh\n'}
+[81.893693] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.zsh\n'}
+[81.894055] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/local_setup.dsv\n'}
+[81.894398] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/package.dsv\n'}
+[81.894768] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server\n'}
+[81.895123] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake\n'}
+[81.895468] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake\n'}
+[81.895770] (web_video_server) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/web_video_server/share/web_video_server/package.xml\n'}
+[81.898947] (web_video_server) CommandEnded: {'returncode': 0}
+[81.986403] (-) TimerEvent: {}
+[82.067975] (web_video_server) JobEnded: {'identifier': 'web_video_server', 'rc': 0}
+[82.071183] (-) EventReactorShutdown: {}

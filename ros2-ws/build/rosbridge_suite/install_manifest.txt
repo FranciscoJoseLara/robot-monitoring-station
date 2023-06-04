@@ -1,0 +1,15 @@
+/home/francisco/ros2-ws/install/rosbridge_suite/share/ament_index/resource_index/package_run_dependencies/rosbridge_suite
+/home/francisco/ros2-ws/install/rosbridge_suite/share/ament_index/resource_index/parent_prefix_path/rosbridge_suite
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.sh
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.dsv
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.sh
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.dsv
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.bash
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.sh
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.zsh
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.dsv
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv
+/home/francisco/ros2-ws/install/rosbridge_suite/share/ament_index/resource_index/packages/rosbridge_suite
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig.cmake
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig-version.cmake
+/home/francisco/ros2-ws/install/rosbridge_suite/share/rosbridge_suite/package.xml

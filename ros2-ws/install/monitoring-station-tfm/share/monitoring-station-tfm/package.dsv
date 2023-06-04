@@ -1,0 +1,6 @@
+source;share/monitoring-station-tfm/hook/pythonpath.ps1
+source;share/monitoring-station-tfm/hook/pythonpath.dsv
+source;share/monitoring-station-tfm/hook/pythonpath.sh
+source;share/monitoring-station-tfm/hook/ament_prefix_path.ps1
+source;share/monitoring-station-tfm/hook/ament_prefix_path.dsv
+source;share/monitoring-station-tfm/hook/ament_prefix_path.sh

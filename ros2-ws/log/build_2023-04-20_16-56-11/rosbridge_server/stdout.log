@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/francisco/ros2-ws/build/rosbridge_server
+-- Install configuration: ""
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/client_mananger.py
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/__init__.py
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/websocket_handler.py
+Listing '/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server'...
+Compiling '/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/__init__.py'...
+Compiling '/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/client_mananger.py'...
+Compiling '/home/francisco/ros2-ws/install/rosbridge_server/lib/python3.8/site-packages/rosbridge_server/websocket_handler.py'...
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/ament_index/resource_index/package_run_dependencies/rosbridge_server
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/ament_index/resource_index/parent_prefix_path/rosbridge_server
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/path.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/environment/path.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.bash
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.sh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.zsh
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/local_setup.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/package.dsv
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/ament_index/resource_index/packages/rosbridge_server
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig.cmake
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig-version.cmake
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/package.xml
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket.py
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket
+-- Installing: /home/francisco/ros2-ws/install/rosbridge_server/share/rosbridge_server/launch/rosbridge_websocket_launch.xml

@@ -1,0 +1,8 @@
+<launch>
+  <!-- recordar cambiar la IP para que corresponda con la del equipo de host -->
+  <node name="web_video_server" pkg="web_video_server" exec="web_video_server" output="screen">
+    <param name="address" value="192.168.0.24" />
+    <param name="port" value="8787" />
+  </node>
+</launch>
+

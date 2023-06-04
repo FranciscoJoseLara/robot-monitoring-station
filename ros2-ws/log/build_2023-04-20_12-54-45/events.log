@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000347] (usb_camera_driver) JobQueued: {'identifier': 'usb_camera_driver', 'dependencies': OrderedDict()}
+[0.000510] (usb_camera_driver) JobStarted: {'identifier': 'usb_camera_driver'}
+[0.028550] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'cmake'}
+[0.030305] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/francisco/ros2-ws/src/ros2_usb_camera', '-DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/usb_camera_driver'], 'cwd': '/home/francisco/ros2-ws/build/usb_camera_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francisco'), ('SSH_AGENT_PID', '1546'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francisco'), ('OLDPWD', '/home/francisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francisco'), ('JOURNAL_STREAM', '8:41464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'francisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sony-vaio:@/tmp/.ICE-unix/1583,unix/sony-vaio:/tmp/.ICE-unix/1583'), ('INVOCATION_ID', 'cd27c9214af84da9bd1036da3a3da76d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/016245bd_fa06_40bd_8632_2696e81c5152'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francisco/ros2-ws/build/usb_camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.069194] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098204] (-) TimerEvent: {}
+[0.129074] (usb_camera_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198326] (-) TimerEvent: {}
+[0.298774] (-) TimerEvent: {}
+[0.399182] (-) TimerEvent: {}
+[0.499615] (-) TimerEvent: {}
+[0.550391] (usb_camera_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.599787] (-) TimerEvent: {}
+[0.632065] (usb_camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.641011] (usb_camera_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.699939] (-) TimerEvent: {}
+[0.800513] (-) TimerEvent: {}
+[0.901191] (-) TimerEvent: {}
+[0.913336] (usb_camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001339] (-) TimerEvent: {}
+[1.041712] (usb_camera_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.044906] (usb_camera_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101475] (-) TimerEvent: {}
+[1.201939] (-) TimerEvent: {}
+[1.302485] (-) TimerEvent: {}
+[1.402930] (-) TimerEvent: {}
+[1.431539] (usb_camera_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.503087] (-) TimerEvent: {}
+[1.572917] (usb_camera_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.603225] (-) TimerEvent: {}
+[1.703737] (-) TimerEvent: {}
+[1.804252] (-) TimerEvent: {}
+[1.871928] (usb_camera_driver) StdoutLine: {'line': b'-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)\n'}
+[1.904381] (-) TimerEvent: {}
+[1.948725] (usb_camera_driver) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[2.004513] (-) TimerEvent: {}
+[2.075457] (usb_camera_driver) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[2.104726] (-) TimerEvent: {}
+[2.205257] (-) TimerEvent: {}
+[2.305918] (-) TimerEvent: {}
+[2.324834] (usb_camera_driver) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4") \n'}
+[2.406036] (-) TimerEvent: {}
+[2.506509] (-) TimerEvent: {}
+[2.547905] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.606668] (-) TimerEvent: {}
+[2.702511] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[2.706784] (-) TimerEvent: {}
+[2.725659] (usb_camera_driver) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.730237] (usb_camera_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.806970] (-) TimerEvent: {}
+[2.907542] (-) TimerEvent: {}
+[2.955964] (usb_camera_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[3.007680] (-) TimerEvent: {}
+[3.050874] (usb_camera_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.107906] (-) TimerEvent: {}
+[3.208573] (-) TimerEvent: {}
+[3.309214] (-) TimerEvent: {}
+[3.388323] (usb_camera_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.397618] (usb_camera_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/francisco/ros2-ws/build/usb_camera_driver\n'}
+[3.409348] (-) TimerEvent: {}
+[3.414598] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[3.417479] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'build'}
+[3.422844] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/francisco/ros2-ws/build/usb_camera_driver', '--', '-j4', '-l4'], 'cwd': '/home/francisco/ros2-ws/build/usb_camera_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francisco'), ('SSH_AGENT_PID', '1546'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francisco'), ('OLDPWD', '/home/francisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francisco'), ('JOURNAL_STREAM', '8:41464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'francisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sony-vaio:@/tmp/.ICE-unix/1583,unix/sony-vaio:/tmp/.ICE-unix/1583'), ('INVOCATION_ID', 'cd27c9214af84da9bd1036da3a3da76d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/016245bd_fa06_40bd_8632_2696e81c5152'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francisco/ros2-ws/build/usb_camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.509545] (-) TimerEvent: {}
+[3.522740] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver\x1b[0m\n'}
+[3.528025] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[3.529060] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[3.609751] (-) TimerEvent: {}
+[3.710637] (-) TimerEvent: {}
+[3.811761] (-) TimerEvent: {}
+[3.912811] (-) TimerEvent: {}
+[4.013886] (-) TimerEvent: {}
+[4.015779] (usb_camera_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[4.016212] (usb_camera_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.114058] (-) TimerEvent: {}
+[4.214665] (-) TimerEvent: {}
+[4.315180] (-) TimerEvent: {}
+[4.415820] (-) TimerEvent: {}
+[4.516889] (-) TimerEvent: {}
+[4.617689] (-) TimerEvent: {}
+[4.718724] (-) TimerEvent: {}
+[4.819662] (-) TimerEvent: {}
+[4.920378] (-) TimerEvent: {}
+[5.021236] (-) TimerEvent: {}
+[5.122016] (-) TimerEvent: {}
+[5.222997] (-) TimerEvent: {}
+[5.323775] (-) TimerEvent: {}
+[5.424877] (-) TimerEvent: {}
+[5.526038] (-) TimerEvent: {}
+[5.627164] (-) TimerEvent: {}
+[5.728163] (-) TimerEvent: {}
+[5.828757] (-) TimerEvent: {}
+[5.929395] (-) TimerEvent: {}
+[6.029990] (-) TimerEvent: {}
+[6.130660] (-) TimerEvent: {}
+[6.231305] (-) TimerEvent: {}
+[6.331949] (-) TimerEvent: {}
+[6.432634] (-) TimerEvent: {}
+[6.533298] (-) TimerEvent: {}
+[6.633895] (-) TimerEvent: {}
+[6.734659] (-) TimerEvent: {}
+[6.835798] (-) TimerEvent: {}
+[6.936804] (-) TimerEvent: {}
+[7.037435] (-) TimerEvent: {}
+[7.138035] (-) TimerEvent: {}
+[7.238682] (-) TimerEvent: {}
+[7.339322] (-) TimerEvent: {}
+[7.439983] (-) TimerEvent: {}
+[7.540624] (-) TimerEvent: {}
+[7.641288] (-) TimerEvent: {}
+[7.741847] (-) TimerEvent: {}
+[7.842353] (-) TimerEvent: {}
+[7.943085] (-) TimerEvent: {}
+[8.044189] (-) TimerEvent: {}
+[8.145312] (-) TimerEvent: {}
+[8.246380] (-) TimerEvent: {}
+[8.347458] (-) TimerEvent: {}
+[8.448531] (-) TimerEvent: {}
+[8.549516] (-) TimerEvent: {}
+[8.650240] (-) TimerEvent: {}
+[8.751147] (-) TimerEvent: {}
+[8.851715] (-) TimerEvent: {}
+[8.952253] (-) TimerEvent: {}
+[9.052809] (-) TimerEvent: {}
+[9.153407] (-) TimerEvent: {}
+[9.253956] (-) TimerEvent: {}
+[9.354509] (-) TimerEvent: {}
+[9.455080] (-) TimerEvent: {}
+[9.555635] (-) TimerEvent: {}
+[9.656187] (-) TimerEvent: {}
+[9.756844] (-) TimerEvent: {}
+[9.857450] (-) TimerEvent: {}
+[9.958029] (-) TimerEvent: {}
+[10.057830] (usb_camera_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/usb_camera_driver.dir/src/usb_camera_driver.cpp.o\x1b[0m\n'}
+[10.058289] (-) TimerEvent: {}
+[10.158950] (-) TimerEvent: {}
+[10.162607] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[10.259102] (-) TimerEvent: {}
+[10.280346] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[10.359262] (-) TimerEvent: {}
+[10.459734] (-) TimerEvent: {}
+[10.560222] (-) TimerEvent: {}
+[10.660712] (-) TimerEvent: {}
+[10.761208] (-) TimerEvent: {}
+[10.861685] (-) TimerEvent: {}
+[10.962168] (-) TimerEvent: {}
+[11.062658] (-) TimerEvent: {}
+[11.163239] (-) TimerEvent: {}
+[11.263859] (-) TimerEvent: {}
+[11.364635] (-) TimerEvent: {}
+[11.465230] (-) TimerEvent: {}
+[11.565817] (-) TimerEvent: {}
+[11.666398] (-) TimerEvent: {}
+[11.766965] (-) TimerEvent: {}
+[11.867530] (-) TimerEvent: {}
+[11.968101] (-) TimerEvent: {}
+[12.068693] (-) TimerEvent: {}
+[12.169336] (-) TimerEvent: {}
+[12.269937] (-) TimerEvent: {}
+[12.370615] (-) TimerEvent: {}
+[12.471296] (-) TimerEvent: {}
+[12.571906] (-) TimerEvent: {}
+[12.672472] (-) TimerEvent: {}
+[12.773067] (-) TimerEvent: {}
+[12.873685] (-) TimerEvent: {}
+[12.974263] (-) TimerEvent: {}
+[13.074954] (-) TimerEvent: {}
+[13.175527] (-) TimerEvent: {}
+[13.276304] (-) TimerEvent: {}
+[13.376917] (-) TimerEvent: {}
+[13.477494] (-) TimerEvent: {}
+[13.578018] (-) TimerEvent: {}
+[13.678590] (-) TimerEvent: {}
+[13.779170] (-) TimerEvent: {}
+[13.879728] (-) TimerEvent: {}
+[13.980269] (-) TimerEvent: {}
+[14.080821] (-) TimerEvent: {}
+[14.181372] (-) TimerEvent: {}
+[14.282035] (-) TimerEvent: {}
+[14.382615] (-) TimerEvent: {}
+[14.483209] (-) TimerEvent: {}
+[14.583792] (-) TimerEvent: {}
+[14.684383] (-) TimerEvent: {}
+[14.784967] (-) TimerEvent: {}
+[14.885574] (-) TimerEvent: {}
+[14.986140] (-) TimerEvent: {}
+[15.086714] (-) TimerEvent: {}
+[15.187315] (-) TimerEvent: {}
+[15.287889] (-) TimerEvent: {}
+[15.388456] (-) TimerEvent: {}
+[15.488968] (-) TimerEvent: {}
+[15.589485] (-) TimerEvent: {}
+[15.689995] (-) TimerEvent: {}
+[15.790576] (-) TimerEvent: {}
+[15.891164] (-) TimerEvent: {}
+[15.991727] (-) TimerEvent: {}
+[16.092318] (-) TimerEvent: {}
+[16.192902] (-) TimerEvent: {}
+[16.293510] (-) TimerEvent: {}
+[16.394091] (-) TimerEvent: {}
+[16.494732] (-) TimerEvent: {}
+[16.595292] (-) TimerEvent: {}
+[16.695871] (-) TimerEvent: {}
+[16.796464] (-) TimerEvent: {}
+[16.875959] (usb_camera_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[16.896624] (-) TimerEvent: {}
+[16.982013] (usb_camera_driver) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[16.996777] (-) TimerEvent: {}
+[17.097375] (-) TimerEvent: {}
+[17.197899] (-) TimerEvent: {}
+[17.298444] (-) TimerEvent: {}
+[17.398965] (-) TimerEvent: {}
+[17.440281] (usb_camera_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libusb_camera_driver.so\x1b[0m\n'}
+[17.499259] (-) TimerEvent: {}
+[17.600383] (-) TimerEvent: {}
+[17.701238] (-) TimerEvent: {}
+[17.801910] (-) TimerEvent: {}
+[17.903055] (-) TimerEvent: {}
+[18.004137] (-) TimerEvent: {}
+[18.105294] (-) TimerEvent: {}
+[18.206362] (-) TimerEvent: {}
+[18.307486] (-) TimerEvent: {}
+[18.408601] (-) TimerEvent: {}
+[18.509781] (-) TimerEvent: {}
+[18.610909] (-) TimerEvent: {}
+[18.712029] (-) TimerEvent: {}
+[18.813254] (-) TimerEvent: {}
+[18.914419] (-) TimerEvent: {}
+[19.015385] (-) TimerEvent: {}
+[19.115964] (-) TimerEvent: {}
+[19.203235] (usb_camera_driver) StdoutLine: {'line': b'[ 60%] Built target usb_camera_driver\n'}
+[19.216139] (-) TimerEvent: {}
+[19.225470] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver_node\x1b[0m\n'}
+[19.226017] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver_tests\x1b[0m\n'}
+[19.316296] (-) TimerEvent: {}
+[19.345406] (usb_camera_driver) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/usb_camera_driver_node.dir/src/usb_camera_driver_node.cpp.o\x1b[0m\n'}
+[19.369829] (usb_camera_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object test/CMakeFiles/usb_camera_driver_tests.dir/usb_camera_driver_tests.cpp.o\x1b[0m\n'}
+[19.416445] (-) TimerEvent: {}
+[19.517049] (-) TimerEvent: {}
+[19.617664] (-) TimerEvent: {}
+[19.718204] (-) TimerEvent: {}
+[19.818813] (-) TimerEvent: {}
+[19.919423] (-) TimerEvent: {}
+[20.019994] (-) TimerEvent: {}
+[20.120679] (-) TimerEvent: {}
+[20.221235] (-) TimerEvent: {}
+[20.321780] (-) TimerEvent: {}
+[20.422386] (-) TimerEvent: {}
+[20.522950] (-) TimerEvent: {}
+[20.623665] (-) TimerEvent: {}
+[20.724391] (-) TimerEvent: {}
+[20.824975] (-) TimerEvent: {}
+[20.925581] (-) TimerEvent: {}
+[21.026179] (-) TimerEvent: {}
+[21.126874] (-) TimerEvent: {}
+[21.227436] (-) TimerEvent: {}
+[21.328041] (-) TimerEvent: {}
+[21.428755] (-) TimerEvent: {}
+[21.529476] (-) TimerEvent: {}
+[21.630076] (-) TimerEvent: {}
+[21.730647] (-) TimerEvent: {}
+[21.831238] (-) TimerEvent: {}
+[21.931823] (-) TimerEvent: {}
+[22.032418] (-) TimerEvent: {}
+[22.133136] (-) TimerEvent: {}
+[22.233692] (-) TimerEvent: {}
+[22.334244] (-) TimerEvent: {}
+[22.434856] (-) TimerEvent: {}
+[22.535410] (-) TimerEvent: {}
+[22.635975] (-) TimerEvent: {}
+[22.736564] (-) TimerEvent: {}
+[22.837157] (-) TimerEvent: {}
+[22.937866] (-) TimerEvent: {}
+[23.038463] (-) TimerEvent: {}
+[23.139063] (-) TimerEvent: {}
+[23.239669] (-) TimerEvent: {}
+[23.340270] (-) TimerEvent: {}
+[23.441066] (-) TimerEvent: {}
+[23.541685] (-) TimerEvent: {}
+[23.642268] (-) TimerEvent: {}
+[23.742786] (-) TimerEvent: {}
+[23.843416] (-) TimerEvent: {}
+[23.943945] (-) TimerEvent: {}
+[24.044483] (-) TimerEvent: {}
+[24.145062] (-) TimerEvent: {}
+[24.245769] (-) TimerEvent: {}
+[24.346341] (-) TimerEvent: {}
+[24.446904] (-) TimerEvent: {}
+[24.547492] (-) TimerEvent: {}
+[24.648049] (-) TimerEvent: {}
+[24.748657] (-) TimerEvent: {}
+[24.849230] (-) TimerEvent: {}
+[24.923171] (usb_camera_driver) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable usb_camera_driver_node\x1b[0m\n'}
+[24.949373] (-) TimerEvent: {}
+[25.050033] (-) TimerEvent: {}
+[25.150676] (-) TimerEvent: {}
+[25.251375] (-) TimerEvent: {}
+[25.351929] (-) TimerEvent: {}
+[25.452466] (-) TimerEvent: {}
+[25.553028] (-) TimerEvent: {}
+[25.653597] (-) TimerEvent: {}
+[25.754112] (-) TimerEvent: {}
+[25.777443] (usb_camera_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable usb_camera_driver_tests\x1b[0m\n'}
+[25.854274] (-) TimerEvent: {}
+[25.954821] (-) TimerEvent: {}
+[26.055460] (-) TimerEvent: {}
+[26.156005] (-) TimerEvent: {}
+[26.256530] (-) TimerEvent: {}
+[26.357058] (-) TimerEvent: {}
+[26.457727] (-) TimerEvent: {}
+[26.558825] (-) TimerEvent: {}
+[26.659886] (-) TimerEvent: {}
+[26.760847] (-) TimerEvent: {}
+[26.861459] (-) TimerEvent: {}
+[26.962197] (-) TimerEvent: {}
+[27.062806] (-) TimerEvent: {}
+[27.097494] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_node\n'}
+[27.163043] (-) TimerEvent: {}
+[27.189613] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_tests\n'}
+[27.219698] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[27.263314] (-) TimerEvent: {}
+[27.293244] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'install'}
+[27.319296] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/francisco/ros2-ws/build/usb_camera_driver'], 'cwd': '/home/francisco/ros2-ws/build/usb_camera_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francisco'), ('SSH_AGENT_PID', '1546'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francisco'), ('OLDPWD', '/home/francisco'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1370'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francisco'), ('JOURNAL_STREAM', '8:41464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'francisco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sony-vaio:@/tmp/.ICE-unix/1583,unix/sony-vaio:/tmp/.ICE-unix/1583'), ('INVOCATION_ID', 'cd27c9214af84da9bd1036da3a3da76d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/016245bd_fa06_40bd_8632_2696e81c5152'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francisco/ros2-ws/build/usb_camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[27.343168] (usb_camera_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.343638] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/lib/libusb_camera_driver.so\n'}
+[27.345450] (usb_camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/francisco/ros2-ws/install/usb_camera_driver/lib/libusb_camera_driver.so" to ""\n'}
+[27.345786] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node\n'}
+[27.346767] (usb_camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/francisco/ros2-ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node" to ""\n'}
+[27.347159] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch\n'}
+[27.347517] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py\n'}
+[27.347823] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py\n'}
+[27.348006] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config\n'}
+[27.348249] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/config.yaml\n'}
+[27.348431] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/config/camera.yaml\n'}
+[27.348684] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver\n'}
+[27.348955] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver\n'}
+[27.349175] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh\n'}
+[27.349419] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.dsv\n'}
+[27.349646] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh\n'}
+[27.349895] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.dsv\n'}
+[27.350145] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash\n'}
+[27.350380] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh\n'}
+[27.350636] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh\n'}
+[27.350885] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.dsv\n'}
+[27.351155] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.dsv\n'}
+[27.351520] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver\n'}
+[27.351877] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver\n'}
+[27.352223] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake\n'}
+[27.352453] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake\n'}
+[27.352702] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/francisco/ros2-ws/install/usb_camera_driver/share/usb_camera_driver/package.xml\n'}
+[27.357564] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[27.365021] (-) TimerEvent: {}
+[27.466008] (-) TimerEvent: {}
+[27.518890] (usb_camera_driver) JobEnded: {'identifier': 'usb_camera_driver', 'rc': 0}
+[27.520869] (-) EventReactorShutdown: {}

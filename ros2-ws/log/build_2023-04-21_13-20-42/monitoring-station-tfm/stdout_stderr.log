@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info
+writing ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/PKG-INFO
+writing dependency_links to ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/dependency_links.txt
+writing entry points to ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/entry_points.txt
+writing requirements to ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/requires.txt
+writing top-level names to ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/top_level.txt
+writing manifest file '../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+reading manifest file '../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+writing manifest file '../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/francisco/ros2-ws/build/monitoring-station-tfm/build
+creating /home/francisco/ros2-ws/build/monitoring-station-tfm/build/lib
+creating /home/francisco/ros2-ws/build/monitoring-station-tfm/build/lib/monitoring-station-tfm
+copying monitoring-station-tfm/__init__.py -> /home/francisco/ros2-ws/build/monitoring-station-tfm/build/lib/monitoring-station-tfm
+running install
+running install_lib
+creating /home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages/monitoring-station-tfm
+copying /home/francisco/ros2-ws/build/monitoring-station-tfm/build/lib/monitoring-station-tfm/__init__.py -> /home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages/monitoring-station-tfm
+byte-compiling /home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages/monitoring-station-tfm/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/francisco/ros2-ws/install/monitoring-station-tfm/share/ament_index
+creating /home/francisco/ros2-ws/install/monitoring-station-tfm/share/ament_index/resource_index
+creating /home/francisco/ros2-ws/install/monitoring-station-tfm/share/ament_index/resource_index/packages
+copying resource/monitoring-station-tfm -> /home/francisco/ros2-ws/install/monitoring-station-tfm/share/ament_index/resource_index/packages
+copying package.xml -> /home/francisco/ros2-ws/install/monitoring-station-tfm/share/monitoring-station-tfm
+running install_egg_info
+Copying ../../build/monitoring-station-tfm/monitoring_station_tfm.egg-info to /home/francisco/ros2-ws/install/monitoring-station-tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/francisco/ros2-ws/build/monitoring-station-tfm/install.log'

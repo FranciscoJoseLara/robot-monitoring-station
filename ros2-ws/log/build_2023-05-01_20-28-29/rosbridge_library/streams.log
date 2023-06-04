@@ -1,0 +1,58 @@
+[0.083s] Invoking command in '/home/francisco/ros2-ws/build/rosbridge_library': CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/opt/ros/foxy LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/francisco/ros2-ws/build/rosbridge_library -- -j4 -l4
+[0.184s] Invoked command in '/home/francisco/ros2-ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/opt/ros/foxy LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/francisco/ros2-ws/build/rosbridge_library -- -j4 -l4
+[0.240s] Invoking command in '/home/francisco/ros2-ws/build/rosbridge_library': CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/opt/ros/foxy LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/francisco/ros2-ws/build/rosbridge_library
+[0.261s] -- Install configuration: ""
+[0.264s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.sh
+[0.264s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.dsv
+[0.265s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library
+[0.265s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal
+[0.266s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscription_modifiers.py
+[0.266s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/topics.py
+[0.266s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/services.py
+[0.267s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/__init__.py
+[0.267s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/exceptions.py
+[0.268s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/ros_loader.py
+[0.268s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscribers.py
+[0.269s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/pngcompression.py
+[0.269s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/publishers.py
+[0.269s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/outgoing_message.py
+[0.270s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/message_conversion.py
+[0.270s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/cbor_conversion.py
+[0.270s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/rosbridge_protocol.py
+[0.270s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/__init__.py
+[0.270s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util
+[0.271s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/cbor.py
+[0.271s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/__init__.py
+[0.271s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/protocol.py
+[0.271s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities
+[0.271s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/subscribe.py
+[0.271s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/publish.py
+[0.272s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/fragmentation.py
+[0.272s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/__init__.py
+[0.272s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/service_response.py
+[0.272s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/unadvertise_service.py
+[0.272s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/call_service.py
+[0.273s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise_service.py
+[0.273s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/defragmentation.py
+[0.273s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise.py
+[0.273s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capability.py
+[0.341s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library'...
+[0.341s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities'...
+[0.341s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal'...
+[0.341s] Listing '/home/francisco/ros2-ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util'...
+[0.349s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/ament_index/resource_index/package_run_dependencies/rosbridge_library
+[0.349s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/ament_index/resource_index/parent_prefix_path/rosbridge_library
+[0.350s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.sh
+[0.350s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/path.sh
+[0.351s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/environment/path.dsv
+[0.351s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.bash
+[0.352s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.sh
+[0.352s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.zsh
+[0.353s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/local_setup.dsv
+[0.353s] -- Installing: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/package.dsv
+[0.354s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/ament_index/resource_index/packages/rosbridge_library
+[0.354s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig.cmake
+[0.354s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig-version.cmake
+[0.355s] -- Up-to-date: /home/francisco/ros2-ws/install/rosbridge_library/share/rosbridge_library/package.xml
+[0.367s] Invoked command in '/home/francisco/ros2-ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs:/home/francisco/ros2-ws/install/usb_camera_driver:/home/francisco/ros2-ws/install/rosbridge_suite:/home/francisco/ros2-ws/install/rosbridge_server:/home/francisco/ros2-ws/install/rosbridge_msgs:/home/francisco/ros2-ws/install/rosapi:/home/francisco/ros2-ws/install/rosbridge_library:/home/francisco/ros2-ws/install/rosapi_msgs:/home/francisco/ros2-ws/install/monitoring_station_tfm:/home/francisco/ros2-ws/install/monitoring-station-tfm:/opt/ros/foxy LD_LIBRARY_PATH=/home/francisco/ros2-ws/install/rosbridge_test_msgs/lib:/home/francisco/ros2-ws/install/usb_camera_driver/lib:/home/francisco/ros2-ws/install/rosbridge_msgs/lib:/home/francisco/ros2-ws/install/rosapi_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/francisco/ros2-ws/build/rosbridge_library

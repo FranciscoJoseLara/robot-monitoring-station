@@ -1,0 +1,21 @@
+[0.031s] Invoking command in '/home/francisco/ros2-ws/build/web_video_server': /usr/bin/cmake /home/francisco/ros2-ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/web_video_server
+[0.089s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.089s]   By not providing "Findament_cmake_ros.cmake" in CMAKE_MODULE_PATH this
+[0.090s]   project has asked CMake to find a package configuration file provided by
+[0.090s]   "ament_cmake_ros", but CMake did not find one.
+[0.090s] 
+[0.090s]   Could not find a package configuration file provided by "ament_cmake_ros"
+[0.091s]   with any of the following names:
+[0.091s] 
+[0.091s]     ament_cmake_rosConfig.cmake
+[0.091s]     ament_cmake_ros-config.cmake
+[0.092s] 
+[0.092s]   Add the installation prefix of "ament_cmake_ros" to CMAKE_PREFIX_PATH or
+[0.092s]   set "ament_cmake_ros_DIR" to a directory containing one of the above files.
+[0.092s]   If "ament_cmake_ros" provides a separate development package or SDK, be
+[0.093s]   sure it has been installed.
+[0.094s] 
+[0.096s] 
+[0.096s] -- Configuring incomplete, errors occurred!
+[0.097s] See also "/home/francisco/ros2-ws/build/web_video_server/CMakeFiles/CMakeOutput.log".
+[0.097s] Invoked command in '/home/francisco/ros2-ws/build/web_video_server' returned '1': /usr/bin/cmake /home/francisco/ros2-ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/francisco/ros2-ws/install/web_video_server

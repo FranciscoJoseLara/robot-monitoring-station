@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: monitoring-station-tfm
+Version: 0.0.0
+Summary: Paquete de publicadores/subscriptores ros2 rclpy
+Home-page: UNKNOWN
+Maintainer: Francisco Lara
+Maintainer-email: fjlara@uma.es
+License: AFL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN

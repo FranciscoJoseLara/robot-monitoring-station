@@ -1,0 +1,13 @@
+Unidad          Dato           Tipo mensaje (ROS2)  Topic
+------------- | ------------ | ------------------ | --------------------------------------
+
+Cuadriga        GPS            NavSatFix            /Cuadriga/fix
+
+Dron            GPS            NavSatFix            /FV8/mavros/global_position/raw/fix
+
+DeepRoboticsDog GPS            NavSatFix            /DeepRoboticsDog/fix
+
+Rambler         GPS            NavSatFix            /Rambler/fix
+
+RoverJ8         GPS            NavSatFix            /RoverJ8/fix
+

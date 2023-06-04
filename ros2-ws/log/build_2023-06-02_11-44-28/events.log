@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (-) JobUnselected: {'identifier': 'camera_driver'}
+[0.000560] (-) JobUnselected: {'identifier': 'rosapi'}
+[0.000633] (-) JobUnselected: {'identifier': 'rosapi_msgs'}
+[0.000734] (-) JobUnselected: {'identifier': 'rosbridge_library'}
+[0.000829] (-) JobUnselected: {'identifier': 'rosbridge_msgs'}
+[0.000925] (-) JobUnselected: {'identifier': 'rosbridge_server'}
+[0.001020] (-) JobUnselected: {'identifier': 'rosbridge_suite'}
+[0.001113] (-) JobUnselected: {'identifier': 'rosbridge_test_msgs'}
+[0.001208] (-) JobUnselected: {'identifier': 'usb_camera_driver'}
+[0.001303] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.001408] (monitoring_station_tfm) JobQueued: {'identifier': 'monitoring_station_tfm', 'dependencies': OrderedDict()}
+[0.001518] (monitoring_station_tfm) JobStarted: {'identifier': 'monitoring_station_tfm'}
+[0.097701] (-) TimerEvent: {}
+[0.198431] (-) TimerEvent: {}
+[0.299040] (-) TimerEvent: {}
+[0.399473] (-) TimerEvent: {}
+[0.499899] (-) TimerEvent: {}
+[0.600333] (-) TimerEvent: {}
+[0.702363] (-) TimerEvent: {}
+[0.803471] (-) TimerEvent: {}
+[0.903878] (-) TimerEvent: {}
+[1.004327] (-) TimerEvent: {}
+[1.104745] (-) TimerEvent: {}
+[1.205172] (-) TimerEvent: {}
+[1.305871] (-) TimerEvent: {}
+[1.406502] (-) TimerEvent: {}
+[1.507133] (-) TimerEvent: {}
+[1.608103] (-) TimerEvent: {}
+[1.708885] (-) TimerEvent: {}
+[1.809386] (-) TimerEvent: {}
+[1.910215] (-) TimerEvent: {}
+[2.011079] (-) TimerEvent: {}
+[2.112113] (-) TimerEvent: {}
+[2.213073] (-) TimerEvent: {}
+[2.313767] (-) TimerEvent: {}
+[2.414540] (-) TimerEvent: {}
+[2.424459] (monitoring_station_tfm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/monitoring_station_tfm', 'build', '--build-base', '/home/francisco/ros2-ws/build/monitoring_station_tfm/build', 'install', '--record', '/home/francisco/ros2-ws/build/monitoring_station_tfm/install.log', '--install-scripts', '$base/lib/monitoring_station_tfm', '--single-version-externally-managed'], 'cwd': '/home/francisco/ros2-ws/src/monitoring_station_tfm', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'francisco', 'SSH_AGENT_PID': '2363', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/francisco', 'OLDPWD': '/home/francisco', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2185', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11060', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'francisco', 'JOURNAL_STREAM': '8:50973', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'francisco', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/francisco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sony-vaio:@/tmp/.ICE-unix/2400,unix/sony-vaio:/tmp/.ICE-unix/2400', 'INVOCATION_ID': 'f7735278cca4492899dfa4347ac0c466', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c5f579b6-6051-4821-9a41-4e5238e65a1b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/francisco/ros2-ws/build/monitoring_station_tfm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/francisco/ros2-ws/build/monitoring_station_tfm/prefix_override:/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages:'}, 'shell': False}
+[2.514726] (-) TimerEvent: {}
+[2.615217] (-) TimerEvent: {}
+[2.715700] (-) TimerEvent: {}
+[2.816117] (-) TimerEvent: {}
+[2.874575] (monitoring_station_tfm) StdoutLine: {'line': b'running egg_info\n'}
+[2.875885] (monitoring_station_tfm) StdoutLine: {'line': b'writing ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/PKG-INFO\n'}
+[2.885489] (monitoring_station_tfm) StdoutLine: {'line': b'writing dependency_links to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/dependency_links.txt\n'}
+[2.886076] (monitoring_station_tfm) StdoutLine: {'line': b'writing entry points to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/entry_points.txt\n'}
+[2.886491] (monitoring_station_tfm) StdoutLine: {'line': b'writing requirements to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/requires.txt\n'}
+[2.886872] (monitoring_station_tfm) StdoutLine: {'line': b'writing top-level names to ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/top_level.txt\n'}
+[2.916359] (-) TimerEvent: {}
+[3.017042] (-) TimerEvent: {}
+[3.026859] (monitoring_station_tfm) StdoutLine: {'line': b"reading manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'\n"}
+[3.044579] (monitoring_station_tfm) StdoutLine: {'line': b"writing manifest file '../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info/SOURCES.txt'\n"}
+[3.045177] (monitoring_station_tfm) StdoutLine: {'line': b'running build\n'}
+[3.045446] (monitoring_station_tfm) StdoutLine: {'line': b'running build_py\n'}
+[3.049640] (monitoring_station_tfm) StdoutLine: {'line': b'copying monitoring_station_tfm/SendPKG.py -> /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm\n'}
+[3.050804] (monitoring_station_tfm) StdoutLine: {'line': b'running install\n'}
+[3.052859] (monitoring_station_tfm) StdoutLine: {'line': b'running install_lib\n'}
+[3.056222] (monitoring_station_tfm) StdoutLine: {'line': b'copying /home/francisco/ros2-ws/build/monitoring_station_tfm/build/lib/monitoring_station_tfm/SendPKG.py -> /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm\n'}
+[3.058585] (monitoring_station_tfm) StdoutLine: {'line': b'byte-compiling /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm/SendPKG.py to SendPKG.cpython-38.pyc\n'}
+[3.062675] (monitoring_station_tfm) StdoutLine: {'line': b'running install_data\n'}
+[3.063558] (monitoring_station_tfm) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.066385] (monitoring_station_tfm) StdoutLine: {'line': b"removing '/home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.066965] (monitoring_station_tfm) StdoutLine: {'line': b'Copying ../../build/monitoring_station_tfm/monitoring_station_tfm.egg-info to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/python3.8/site-packages/monitoring_station_tfm-0.0.0-py3.8.egg-info\n'}
+[3.088228] (monitoring_station_tfm) StdoutLine: {'line': b'running install_scripts\n'}
+[3.117192] (-) TimerEvent: {}
+[3.126454] (monitoring_station_tfm) StdoutLine: {'line': b'Installing listener script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.126870] (monitoring_station_tfm) StdoutLine: {'line': b'Installing pub01 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.127155] (monitoring_station_tfm) StdoutLine: {'line': b'Installing pub02 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.127400] (monitoring_station_tfm) StdoutLine: {'line': b'Installing pub03 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.127672] (monitoring_station_tfm) StdoutLine: {'line': b'Installing publicador script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.127956] (monitoring_station_tfm) StdoutLine: {'line': b'Installing talker script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.128274] (monitoring_station_tfm) StdoutLine: {'line': b'Installing test01 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.128812] (monitoring_station_tfm) StdoutLine: {'line': b'Installing test02 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.129236] (monitoring_station_tfm) StdoutLine: {'line': b'Installing test03 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.129615] (monitoring_station_tfm) StdoutLine: {'line': b'Installing test04 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.129877] (monitoring_station_tfm) StdoutLine: {'line': b'Installing test05 script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.130056] (monitoring_station_tfm) StdoutLine: {'line': b'Installing timer script to /home/francisco/ros2-ws/install/monitoring_station_tfm/lib/monitoring_station_tfm\n'}
+[3.130929] (monitoring_station_tfm) StdoutLine: {'line': b"writing list of installed files to '/home/francisco/ros2-ws/build/monitoring_station_tfm/install.log'\n"}
+[3.173699] (monitoring_station_tfm) CommandEnded: {'returncode': 0}
+[3.217354] (-) TimerEvent: {}
+[3.317919] (-) TimerEvent: {}
+[3.401519] (monitoring_station_tfm) JobEnded: {'identifier': 'monitoring_station_tfm', 'rc': 0}
+[3.404353] (-) EventReactorShutdown: {}
