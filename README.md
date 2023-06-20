@@ -1,3 +1,7 @@
 # robot-monitoring-station
-Estacion de Monitorización para el departamento ISA de la Universidad de Málaga
-![Imagen de la estación](https://drive.google.com/file/d/19cMUnnjEyJKmEpIWmhc1fc4Ivl5I8OvZ/view?usp=sharing)
+Estación de Monitorización para el departamento ISA de la Universidad de Málaga
+<p align="center">
+  <br>
+  <img src="detail-panel-complete.png" alt="Imagen de la estación">
+  <br>
+</p>
