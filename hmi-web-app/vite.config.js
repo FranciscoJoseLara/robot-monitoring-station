@@ -3,6 +3,6 @@ export default {
     sourcemap: true,
   },
   server: {
-    host: 'localhost',
+    host: '10.242.223.250',
   },
 }

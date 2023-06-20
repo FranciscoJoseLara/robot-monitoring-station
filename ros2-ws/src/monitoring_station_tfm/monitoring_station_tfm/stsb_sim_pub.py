@@ -20,24 +20,31 @@ def pub():
 
 
     speed.data = 5.00
-    tilt.data = -95.00
+    tilt.data = -25.00
     battery.data = 55.00
     status.data = "Online"
 
     while 1:
+        if speed.data > 49.00:
+            speed.data = 0.00
         speed_pub.publish(speed)
         speed.data += 0.35
         
+        if tilt.data > 45.00:
+            tilt.data = -45.00
         tilt_pub.publish(tilt)
         tilt.data += 2
 
+        if battery.data < 2.00:
+            battery.data = 100.00
         battery_pub.publish(battery)
         battery.data -= 0.5
 
-        if battery.data < 10:
-            status.data = "Offline"
+        if battery.data < 10.00:
+            status.data = "OFFline"
             status_pub.publish(status)
         else:
+            status.data = "ONline"
             status_pub.publish(status)
         
         time.sleep(0.5)

@@ -97,6 +97,11 @@
 
 #video-panel{
     overflow-y: auto;
+    height: 95%;
+    width: 300px;
+    margin-left: -3px;
+    top: 10px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 #cameras-boxes{
@@ -109,6 +114,7 @@
     height: 255px;
     display: inline-block;
     margin: auto;
+    margin-bottom: -40px;
 }
 
 #close-camera-expand{

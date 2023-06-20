@@ -15,6 +15,7 @@ class SendPKG:
         self.statusFlag = None
         self.battery = None
         self.batteryFlag = None
+        self.camera = None
         self.cameraFlag = None
     
     # Getter
@@ -42,6 +43,8 @@ class SendPKG:
         return self.battery
     def get_batteryFlag(self):
         return self.batteryFlag
+    def get_camera(self):
+        return self.camera
     def get_cameraFlag(self):
         return self.cameraFlag
 
@@ -70,6 +73,8 @@ class SendPKG:
         self.battery = battery
     def set_batteryFlag(self, batteryFlag):
         self.batteryFlag = batteryFlag
+    def set_camera(self, camera):
+        self.camera = camera
     def set_cameraFlag(self, cameraFlag):
         self.cameraFlag = cameraFlag
 
@@ -87,6 +92,7 @@ class SendPKG:
         '"statusFlag": "%s",'
         '"battery": "%s",'
         '"batteryFlag": "%s",'
+        '"camera": "%s",'
         '"cameraFlag": "%s"'
         '}') % (self.id, 
                  self.type, 
@@ -100,6 +106,7 @@ class SendPKG:
                  self.statusFlag,
                  self.battery,
                  self.batteryFlag,
+                 self.camera,
                  self.cameraFlag)
         
         return send_pkg

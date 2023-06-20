@@ -8,45 +8,45 @@ from monitoring_station_tfm.SendPKG import SendPKG
 class nTimerTest(Node):
 
     def __init__(self):
-        super().__init__('nodoTestTimer')
+        super().__init__('node_DeepRoboticsDog')
 
         self.pkg = SendPKG()
 
-        self.pkg.set_id("Carro_01")
-        self.pkg.set_type("terrestre")
-        self.pkg.set_camera("/video_image")
+        self.pkg.set_id("Deep-Robotics-Dog")
+        self.pkg.set_type("nodo-sensor")
+        self.pkg.set_camera("")         # self.pkg.set_camera("DeepRoboticsDog/video_image")
 
         # Flags
-        self.pkg.set_speedFlag("true")
-        self.pkg.set_tiltFlag("true")
-        self.pkg.set_statusFlag("true")
-        self.pkg.set_batteryFlag("true")
-        self.pkg.set_cameraFlag("true")
+        self.pkg.set_speedFlag("false")
+        self.pkg.set_tiltFlag("false")
+        self.pkg.set_statusFlag("false")
+        self.pkg.set_batteryFlag("false")
+        self.pkg.set_cameraFlag("false")
 
         self.publisher_ = self.create_publisher(String, '/hmi/robdat', 10)
         self.subscription01 = self.create_subscription(
             NavSatFix,
-            '/gps/unit01',
+            '/DeepRoboticsDog/fix',
             self.listener_callback_01,
             10)
         self.subscription02 = self.create_subscription(
             Float32,
-            '/speed/unit01',
+            '/DeepRoboticsDog/speed',
             self.listener_callback_02,
             10)
         self.subscription03 = self.create_subscription(
             Float32,
-            '/tilt/unit01',
+            '/DeepRoboticsDog/tilt',
             self.listener_callback_03,
             10)
         self.subscription04 = self.create_subscription(
             Float32,
-            '/battery/unit01',
+            '/DeepRoboticsDog/battery',
             self.listener_callback_04,
             10)
         self.subscription05 = self.create_subscription(
             String,
-            '/status/unit01',
+            '/DeepRoboticsDog/status',
             self.listener_callback_05,
             10)
         self.timer = self.create_timer(0.5, self.publish_data)  # Temporizador cada 1000 ms

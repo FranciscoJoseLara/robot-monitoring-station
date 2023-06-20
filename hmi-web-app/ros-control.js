@@ -44,7 +44,9 @@ export function runROS(){
     });
 
     // Create a connection to the rosbridge WebSocket server.
-    ros.connect('ws://localhost:9090');
+    // ros.connect('ws://localhost:9090'); // DEFAULT
+    // ros.connect('ws://192.168.0.24:9090'); // CASA
+    ros.connect('ws://10.242.223.250:9090'); // VPN-ISA
 
     var oyente = new ROSLIB.Topic({
     ros : ros,
@@ -94,32 +96,42 @@ export function runROS(){
         var featureSelected = features.find(feature => feature.get('robid') === window.detailUnitActive);
 
         // speed
-        var vel = document.getElementsByClassName('css3')[0];
-        vel.style.transform = `rotate(${featureSelected.get("robspeed")*180/50}deg)`;
-        var styleSheet = document.createElement("style");
-        styleSheet.innerHTML = `.css3::after { transform: scale(1.02) rotate(-${featureSelected.get("robspeed")*180/50}deg); }`;
-        document.head.appendChild(styleSheet);
-        document.getElementById('speed-value').innerHTML = featureSelected.get("robspeed");
+        if("true" === featureSelected.get("flagspeed")){
+            var vel = document.getElementsByClassName('css3')[0];
+            vel.style.transform = `rotate(${featureSelected.get("robspeed")*180/50}deg)`;
+            var styleSheet = document.createElement("style");
+            styleSheet.innerHTML = `.css3::after { transform: scale(1.02) rotate(-${featureSelected.get("robspeed")*180/50}deg); }`;
+            document.head.appendChild(styleSheet);
+            document.getElementById('speed-value').innerHTML = featureSelected.get("robspeed");
+        }
         
         // tilt
-        document.getElementById('alabeo-move').style.transform = `rotateZ(${featureSelected.get("robtilt")}deg)`;
-        
-        // status
-        document.getElementById('status-txt').innerHTML = featureSelected.get("robstatus");
-        
-        // battery
-        document.getElementsByClassName('battery-level')[0].style.height = `${featureSelected.get('robbattery')}%`;
-        if(parseFloat(featureSelected.get('robbattery')) >= 30){
-            document.getElementsByClassName('battery-level')[0].style.backgroundColor = "#30b455";
+        if("true" === featureSelected.get("flagtilt")){
+            if(window.screen.width < 700 ){ /* no existe en este caso */   }
+            else{
+                document.getElementById('alabeo-move').style.transform = `rotateZ(${featureSelected.get("robtilt")}deg)`;
+            }
         }
-        else if(parseFloat(featureSelected.get('robbattery')) < 30 && parseFloat(featureSelected.get('robbattery')) >= 10){
-            document.getElementsByClassName('battery-level')[0].style.backgroundColor = "#EFAF13";
-        }
-        else{
-            document.getElementsByClassName('battery-level')[0].style.backgroundColor = "#e81309";
-        }
-        document.getElementById('battery-txt').innerHTML = `${featureSelected.get('robbattery')}%`;
 
+        // status
+        if("true" === featureSelected.get("flagstatus")){
+            document.getElementById('status-txt').innerHTML = featureSelected.get("robstatus");
+        }
+
+        // battery
+        if("true" === featureSelected.get("flagbattery")){
+            document.getElementsByClassName('battery-level')[0].style.height = `${featureSelected.get('robbattery')}%`;
+            if(parseFloat(featureSelected.get('robbattery')) >= 30){
+                document.getElementsByClassName('battery-level')[0].style.backgroundColor = "#30b455";
+            }
+            else if(parseFloat(featureSelected.get('robbattery')) < 30 && parseFloat(featureSelected.get('robbattery')) >= 10){
+                document.getElementsByClassName('battery-level')[0].style.backgroundColor = "#EFAF13";
+            }
+            else{
+                document.getElementsByClassName('battery-level')[0].style.backgroundColor = "#e81309";
+            }
+            document.getElementById('battery-txt').innerHTML = `${featureSelected.get('robbattery')}%`;
+        }
     }
 
     if(window.unitSelected){

@@ -38,15 +38,8 @@
     <div id="detail-panel">
       <div id="detail-panel-head">unidad seleccionada</div>
       <div id="detail-panel-content">
-        <!-- <div class="detail-box"><br>Velocidad<br></div>
-        <div class="detail-box"><br>Inlcinación<br></div>
-        <div class="detail-box"><br>Batería<br></div>
-        <div class="detail-box"><br>Sensor 1<br></div>
-        <div class="detail-box"><br>Sensor 2<br></div>
-        <div class="detail-box"><br>Sensor 3<br></div> -->
       </div>
       <div id="detail-panel-foot">
-        <!-- <div id="map" class="reduced-map"></div> -->
         
       </div>
     </div>
@@ -96,23 +89,62 @@
           
         </div>
       </div>
-      <!-- <div class="panel-footer"></div> -->
     </div>
     
     <div id="camera-expand">
-      <!-- <div id="close-camera-expand" onclick="close_camera_expand()"><strong>X</strong></div>
-      <img id="camera" class="camera-big" src="http://0.0.0.0:8080/stream?topic=/video_image" alt="http://0.0.0.0:8080/stream?topic=/video_image"/> -->
     </div>
+
+
+
+
+
+
+
+    <!-- ==================================== CAMARAS =================================================== -->
 
     <div id="video-panel">
       <div id="close-camera-expand" onclick="close_video_panel()"><strong>X</strong></div>
         <div id="cameras-boxes">
-          <div class="video-box"><p class="camera-id">Camera: Unidad_01</p><img class="no-margin"  src="http://0.0.0.0:8181/stream?topic=/video_image" alt="Topic: /video_image" onerror="this.src='./icon-no-signal.png';"/></div>
-          <div class="video-box"><p class="camera-id">Camera: Unidad_02</p><img class="no-margin"  src="phttp://0.0.0.0:8181/stream?topic=/video_image_usb" alt="Topic: /video_image_usb" onerror="this.src='./icon-no-signal.png';"/></div>    
-          <div class="video-box"><p class="camera-id">Camera: Unidad_03</p><img class="no-margin"  src="phttp://0.0.0.0:8181/stream?topic=/video_image_usb" alt="Topic: /video_image_usb" onerror="this.src='./icon-no-signal.png';"/></div>    
-          <div class="video-box"><p class="camera-id">Camera: Unidad_04</p><img class="no-margin"  src="phttp://0.0.0.0:8181/stream?topic=/video_image_usb" alt="Topic: /video_image_usb" onerror="this.src='./icon-no-signal.png';"/></div>    
+
+          <!-- =========== EJERCICIO ''1'' ========== -->
+
+          <!-- CAMARAS ROVERJ8 -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Movil</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_movil" alt="RoverJ8 movil" onerror="this.src='./icon-no-signal.png';"/></div>  -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>      -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_rear" alt="RoverJ8 rear" onerror="this.src='./icon-no-signal.png';"/></div>     --> 
+          
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>    
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_rear" alt="RoverJ8 rear" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+          
+
+
+          <!-- =========== EJERCICIO ''2'' ========== -->
+
+          <!-- CAMARAS ROVERJ8 -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Movil</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_movil" alt="RoverJ8 movil" onerror="this.src='./icon-no-signal.png';"/></div>
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>    
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_rear" alt="RoverJ8 rear" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+          
+          <!-- CAMARA DRON -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: Dron_FV8</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/dron" alt="Dron" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+        
+
+
+
+          <!-- =========== EJERCICIO ''3'' ========== -->
+
+          <!-- CAMARA FRONT ROVERJ8 -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+
+
         </div>
       </div>
+
+    <!-- ================================================================================================= -->
+
+
+
+
 
     <div id="map" style="margin-top: 10px; margin-right: 2.5%; margin-left: 2.5%; height: 96%; width: 95%; position: relative;">
       
@@ -120,22 +152,18 @@
 
     <div id="robot-id-overlay">
       <div id="overlay-left-corner">
-        <!-- <div id="speed-text">km/h<br><span id="speed-value">45</span></div>
-        <div id="speed-param" class="circular-progress css3"></div> -->
       </div>
       <div id="overlay-center"></div>
       <div id="overlay-right-corner">
-        <img class="alabeo" id="alabeo-base" src="./icon-alabeo-base.png" alt="alabeo-base"/>
+        <!-- <img class="alabeo" id="alabeo-base" src="./icon-alabeo-base.png" alt="alabeo-base"/>
         <img class="alabeo" id="alabeo-move" src="./icon-alabeo-move.png" alt="alabeo-move"/>
-        <img class="alabeo" id="alabeo-top" src="./icon-alabeo-top.png" alt="alabeo-top"/>
+        <img class="alabeo" id="alabeo-top" src="./icon-alabeo-top.png" alt="alabeo-top"/> -->
       </div>
     </div>
 
     <div id="robots-panel">
       <h3 style="margin: 0px; margin-bottom: 5px; text-align: center; border-bottom: 2px solid black;">Lista de unidades</h3>
     </div>
-
-    <!-- <button onclick="test()">test</button> -->
     
     <script type="module" src="./main.js"></script>
     <script  src="./app_controls.js"></script>

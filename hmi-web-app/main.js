@@ -14,6 +14,12 @@ import * as olfunc from './ol-functions';
 import * as olparam from './ol-parameters';
 import * as roscontrol from './ros-control';
 
+// ----------------------------------- IP -----------------------
+// window.IPserver = '192.168.0.24'; // CASA
+window.IPserver = '10.242.223.250'; // VPN-ISA
+// window.IPserver = '0.0.0.0'; // DEFAULT
+// --------------------------------------------------------------
+
 useGeographic();
 
 const map = new Map({
@@ -51,15 +57,33 @@ olparam.select.on("select", (e) => {
       feature.setStyle(olstyles.selectedStyle(feature.get('robtype')));
       const robotId = feature.get("robid");
       // const message = `Unidad: ${robotId} <br> Descripción: -- <br> Batería: --% <br> Imagen: <a href="https://www.uma.es/isa" target="_blank" style="color: white;">streaming</a> `;
-      const overlay = document.getElementById("robot-id-overlay");
-      const overlay_L = document.getElementById("overlay-left-corner");
-      const overlay_center = document.getElementById("overlay-center");
-      const overlay_R = document.getElementById("overlay-right-corner");
-      overlay_L.innerHTML = '<img id="camera" src="http://0.0.0.0:8181/stream?topic=/video_image" alt="http://0.0.0.0:8181/stream?topic=/video_image" onerror="this.src=\'./icon-no-signal.png\';"/><img id="icon-expand" src="./icon-expand.png" alt="icon expand" onclick="camera_expand()"/>';
-      overlay_center.innerHTML = `Unidad: ${robotId}`;
-      // overlay_R.innerHTML = 'inclinación';
-      overlay.style.display = "flex";
-
+      if(window.screen.width < 700 ){
+        const overlay = document.getElementById("robot-id-overlay");
+        const overlay_L = document.getElementById("overlay-left-corner");
+        const overlay_center = document.getElementById("overlay-center");
+        const overlay_R = document.getElementById("overlay-right-corner");
+        overlay.style.color = "white";
+        overlay.style.backgroundColor = "#273746";
+        overlay.style.bottom = "-70px";
+        overlay.style.height = "80px";
+        overlay.style.justifyContent = "center";
+        overlay.style.alignItems = "center";
+        overlay.style.fontSize = "22px";
+        overlay.innerHTML = `Unidad: ${robotId}`; 
+        overlay.style.display = "flex";
+      }
+      else{
+        const overlay = document.getElementById("robot-id-overlay");
+        const overlay_L = document.getElementById("overlay-left-corner");
+        const overlay_center = document.getElementById("overlay-center");
+        const overlay_R = document.getElementById("overlay-right-corner");
+        overlay_R.style.visibility = "visible";
+        // overlay_L.innerHTML = '<img id="camera" src="http://' + window.IPserver + ':8181/stream?topic=' + feature.get("robcamera") + '" alt="http://' + window.IPserver + ':8181/stream?topic=' + feature.get("robcamera") + '" onerror="this.src=\'./icon-no-signal.png\';"/><img id="icon-expand" src="./icon-expand.png" alt="icon expand" onclick="camera_expand()"/>';
+        overlay_center.innerHTML = `Unidad: ${robotId}`; //  ${robotId}
+        // overlay_R.innerHTML = 'inclinación';
+        overlay.style.display = "flex";
+      }
+      
       reset_params();
 
       window.detailUnitActive = robotId;
@@ -82,10 +106,17 @@ map.on('pointermove', function(evt) {
 });
 
 map.on('click', function(evt){
-  const overlay_L = document.getElementById("overlay-left-corner");
-  overlay_L.innerHTML = '';
-  const overlay = document.getElementById('robot-id-overlay');
-  overlay.style.display = 'none';
+  if(window.screen.width < 700 ){
+    const overlay = document.getElementById('robot-id-overlay');
+    overlay.style.display = 'none';
+  }
+  else{
+    const overlay_L = document.getElementById("overlay-left-corner");
+    overlay_L.innerHTML = '';
+    const overlay = document.getElementById('robot-id-overlay');
+    overlay.style.display = 'none';
+  }
+  
 
   window.detailUnitActive = "";
   window.unitSelected = false;
@@ -169,16 +200,21 @@ function data_to_details_panel(panel, id){
   // monta el panel de detalles en funcion de los flags que indican la presencia o no de datos
   var detail_panel = document.getElementById("detail-panel-content");
 
-  var overlay_L = document.getElementById("overlay-left-corner");
+  if(window.screen.width < 700 ){ /* no existe en este caso */   }
+  else{
+    var overlay_L = document.getElementById("overlay-left-corner");
 
-  // tilt
-  var alb_b = document.getElementById("alabeo-base");
-  var alb_m = document.getElementById("alabeo-move");
-  var alb_t = document.getElementById("alabeo-top");
+    // tilt
+    var alb_b = document.getElementById("alabeo-base");
+    var alb_m = document.getElementById("alabeo-move");
+    var alb_t = document.getElementById("alabeo-top");
+  }
   
   if(panel){
 
     window.detailUnitActive = id;
+
+    detail_panel.innerHTML = "";
     
     // comprobación para dato: speed
     if("true" === featureSelected.get("flagspeed")){
@@ -195,32 +231,35 @@ function data_to_details_panel(panel, id){
     }
 
     // comprobación para dato: tilt
-    if(true /*"true" === featureSelected.get("flagtilt")*/){
+    if("true" === featureSelected.get("flagtilt")){
+      if(window.screen.width < 700 ){ /* no existe en este caso */   }
+      else{
+        alb_b.style.height = '100px';
+        alb_b.style.setProperty("margin-left", "-50px", "important");
+        alb_m.style.height = '100px';
+        alb_m.style.setProperty("margin-left", "-50px", "important");
+        alb_t.style.height = '100px';
+        alb_t.style.setProperty("margin-left", "-50px", "important");
+        detail_panel.innerHTML += `<div class="detail-box"><br>Inlcinación<br><br>${alb_b.outerHTML}${alb_m.outerHTML}${alb_t.outerHTML}</div>`;
+      }
       
-      alb_b.style.height = '100px';
-      alb_b.style.setProperty("margin-left", "-50px", "important");
-      alb_m.style.height = '100px';
-      alb_m.style.setProperty("margin-left", "-50px", "important");
-      alb_t.style.height = '100px';
-      alb_t.style.setProperty("margin-left", "-50px", "important");
-      detail_panel.innerHTML += `<div class="detail-box"><br>Inlcinación<br><br>${alb_b.outerHTML}${alb_m.outerHTML}${alb_t.outerHTML}</div>`;
     }
 
     // comprobación para dato: status
-    if(true /*"true" === featureSelected.get("flagstatus")*/){
+    if("true" === featureSelected.get("flagstatus")){
       detail_panel.innerHTML += `<div class="detail-box">
                                   <br>Estado<br><br>
-                                  <div id="status-txt">Follow Me</div>
+                                  <div id="status-txt">---</div>
                                 </div>`;
     }
 
     // comprobación para dato: battery
-    if(true/*"true" === featureSelected.get("flagbattery")*/){
+    if("true" === featureSelected.get("flagbattery")){
       detail_panel.innerHTML += `<div class="detail-box">
                                   <br>Batería<br><br>
-                                  <div id="battery-txt">80%</div>
+                                  <div id="battery-txt">--%</div>
                                   <div class="battery">
-                                    <div class="battery-level" style="height:80%;"></div>
+                                    <div class="battery-level" style="height:50%;"></div>
                                   </div>
                                 </div>`;
     }
@@ -228,12 +267,16 @@ function data_to_details_panel(panel, id){
     // comprobación para dato: camera
     if("true" === featureSelected.get("flagcamera")){
       // console.log("show box camera");
-      var cam = '<img id="camera" src="http://0.0.0.0:8181/stream?topic=/video_image" alt="http://0.0.0.0:8181/stream?topic=/video_image" onerror="this.src=\'./icon-no-signal.png\';"/>';
+      var cam = '<img id="camera" src="http://' + window.IPserver + ':8181/stream?topic=' + featureSelected.get("robcamera") + '" alt="http://' + window.IPserver + ':8181/stream?topic=' + featureSelected.get("robcamera") + '" onerror="this.src=\'./icon-no-signal.png\';"/>';
       detail_panel.innerHTML += `<div class="detail-box"><br>Cámara<br><br>${cam}</div>`;
       document.getElementById("camera").style.setProperty("height","100px");
     }
     
-    overlay_L.innerHTML = "";
+    if(window.screen.width < 700 ){ /* no existe en este caso */   }
+    else{
+      overlay_L.innerHTML = "";
+    }
+    
     
   }
   else if(!panel){
@@ -277,7 +320,7 @@ window.expand_camera = expand_camera;
 
 function expand_camera(){
   var cam = `<div id="close-camera-expand" onclick="close_camera_expand()"><strong>X</strong></div>
-  <img id="camera" class="camera-big" src="http://0.0.0.0:8181/stream?topic=/video_image" alt="http://0.0.0.0:8181/stream?topic=/video_image" onerror="this.src='./icon-no-signal.png';"/>`
+  <img id="camera" class="camera-big" src="http://${window.IPserver}:8181/stream?topic=/video_image" alt="http://${window.IPserver}:8181/stream?topic=/video_image" onerror="this.src='./icon-no-signal.png';"/>`
   document.getElementById("camera-expand").innerHTML = cam;
 }
 

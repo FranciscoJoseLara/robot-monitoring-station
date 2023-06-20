@@ -68,7 +68,7 @@ WebVideoServer::WebVideoServer(rclcpp::Node::SharedPtr &nh, rclcpp::Node::Shared
   if (private_nh->get_parameter("address", parameter)) {
     address_ = parameter.as_string();
   } else {
-    address_ = "0.0.0.0"; // default: "0.0.0.0"
+    address_ = "10.242.223.250"; // default: "0.0.0.0"
   }
 
   int server_threads;

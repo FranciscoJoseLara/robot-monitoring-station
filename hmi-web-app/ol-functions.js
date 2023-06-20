@@ -49,16 +49,27 @@ export function addPoint(jsonObj) {
     var tiltFlag = jsonObj.tiltFlag;
     var statusFlag = jsonObj.statusFlag;
     var batteryFlag = jsonObj.batteryFlag;
+    var camera = jsonObj.camera;
     var cameraFlag = jsonObj.cameraFlag;
     var style = olstyles.createStyle(olparam.colors[olparam.olfeatures.length], type);
-    var feature = olparam.createFeature(point, id, type, speedFlag, tiltFlag, statusFlag, batteryFlag, cameraFlag);
+    var feature = olparam.createFeature(point, id, type, speedFlag, tiltFlag, statusFlag, batteryFlag, camera, cameraFlag);
     feature.setStyle(style);
     olparam.olfeatures.push(feature);
     olparam.vectorLayer.getSource().addFeature(feature);
+
+    buildCameraPanel(id, camera, cameraFlag);
     // console.log(feature.getStyle());
     // Agregar la característica a la fuente de datos de la capa vectorial
     // olparam.vectorLayer.getSource().addFeatures(myFeatures);
   }
+
+
+function buildCameraPanel(id, camtopic, cameraFlag){
+  
+  if('true' === cameraFlag){
+    document.getElementById('cameras-boxes').innerHTML += '<div class="video-box"><p class="camera-id">Cámara: <strong>' + id + '</strong></p><img class="no-margin"  src="http://' + window.IPserver + ':8181/stream?topic=' + camtopic + '" alt="Topic: ' + camtopic + '" onerror="this.src=\'./icon-no-signal.png\';"/></div>';  
+  }
+}
 
 
 

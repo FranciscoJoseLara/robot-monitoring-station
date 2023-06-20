@@ -12,7 +12,7 @@ export const vectorLayer = new VectorLayer({
     source: new VectorSource(),
   });
 
-export function createFeature(fpoint, fid, ftype, fspeed, ftilt, fstatus, fbattery, fcamera){
+export function createFeature(fpoint, fid, ftype, fspeed, ftilt, fstatus, fbattery, fcamtopic, fcamera){
   return new Feature({
     geometry: fpoint,
     robid: fid,
@@ -25,6 +25,7 @@ export function createFeature(fpoint, fid, ftype, fspeed, ftilt, fstatus, fbatte
     flagstatus: fstatus,
     robbattery: 0,
     flagbattery: fbattery,
+    robcamera: fcamtopic,
     flagcamera: fcamera,
   });
 } 

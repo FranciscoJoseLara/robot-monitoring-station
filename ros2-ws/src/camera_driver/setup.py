@@ -22,6 +22,14 @@ setup(
         'console_scripts': [
 		'camera = camera_driver.driver_camera:main',
 		'camera-usb = camera_driver.driver_camera_usb:main',
+		'camera-compressed = camera_driver.driver_camera_compressed:main',
+		'com-to-img = camera_driver.compressed_to_image:main',
+		'comToImg-RoverJ8 = camera_driver.compressed_to_image_RoverJ8:main',
+		'comToImg-Dron = camera_driver.compressed_to_image_Dron:main',
+		'dron = camera_driver.cti_Dron:main',
+		'rj8_movil = camera_driver.cti_RJ8_movil:main',
+		'rj8_front = camera_driver.cti_RJ8_front:main',
+		'rj8_rear = camera_driver.cti_RJ8_rear:main',
         ],
     },
 )
