@@ -1,0 +1,8 @@
+prefix=/home/francisco/ros-ws/install
+
+Name: gui_RR
+Description: Description of gui_RR
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

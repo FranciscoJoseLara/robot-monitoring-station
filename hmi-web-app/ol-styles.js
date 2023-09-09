@@ -81,7 +81,7 @@ export function selectedStyle(type){
         anchor: [0.5, 480],
         anchorXUnits: 'fraction',
         anchorYUnits: 'pixels',
-        src: 'icon-geo-robot.png',
+        src: 'icon/icon-geo-robot.png',
         scale: [
           0.15,
           0.15,
@@ -95,7 +95,7 @@ export function selectedStyle(type){
         anchor: [0.5, 480],
         anchorXUnits: 'fraction',
         anchorYUnits: 'pixels',
-        src: 'icon-geo-sensor.png',
+        src: 'icon/icon-geo-sensor.png',
         scale: [
           0.15,
           0.15,
@@ -109,7 +109,7 @@ export function selectedStyle(type){
         anchor: [0.5, 480],
         anchorXUnits: 'fraction',
         anchorYUnits: 'pixels',
-        src: 'icon-geo-dron.png',
+        src: 'icon/icon-geo-dron.png',
         scale: [
           0.15,
           0.15,
@@ -123,7 +123,7 @@ export function selectedStyle(type){
         anchor: [0.5, 480],
         anchorXUnits: 'fraction',
         anchorYUnits: 'pixels',
-        src: 'icon-geo-default.png',
+        src: 'icon/icon-geo-default.png',
         scale: [
           0.15,
           0.15,
@@ -139,7 +139,7 @@ export function selectedStyle(type){
         anchor: [0.5, 480],
         anchorXUnits: 'fraction',
         anchorYUnits: 'pixels',
-        src: 'icon_geo_robot.png',
+        src: 'icon/icon_geo_robot.png',
         scale: [
           0.15,
           0.15,

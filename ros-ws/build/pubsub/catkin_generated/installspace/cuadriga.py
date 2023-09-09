@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+
+import rospy
+import random
+from std_msgs.msg import String
+#from geometry_msgs.msg import Twist
+from sensor_msgs.msg import NavSatFix
+
+def callback(data):
+    msg = String()
+    
+
+    msg.data = ('{"id": "Rambler", "type": "terrestre", "lat": "%s", "lon": "%s", "speed": "None", "speedFlag": "None", "tilt": "None", "tiltFlag": "None", "status": "None", "statusFlag": "None", "battery": "None", "batteryFlag": "None", "camera": "None", "cameraFlag": "None"}') % (data.latitude, data.longitude)
+
+    
+    print(msg.data)
+
+    pub1.publish(msg)
+
+    
+
+def susandpubisa():
+
+    #pub = rospy.Publisher('topic01', Twist, queue_size=10)
+
+    rospy.init_node('susandpubisa', anonymous=True)
+
+    # rospy.Subscriber('/gps0/fix', NavSatFix, callback)
+    rospy.Subscriber('/Cuadriga/fix', NavSatFix, callback)
+
+    # Establece una duración de 0.01 segundos
+    duration = rospy.Duration.from_sec(0.5)
+    
+    while not rospy.is_shutdown():
+        # Espera el tiempo especificado
+        rospy.sleep(duration)
+
+    # rospy.spin(0.5)
+
+if __name__ == '__main__':
+    
+    pub1 = rospy.Publisher('/hmi/robdat', String, queue_size=10)
+    # pub2 = rospy.Publisher('gps0/rob2', NavSatFix, queue_size=10)
+    # pub3 = rospy.Publisher('gps0/rob3', NavSatFix, queue_size=10)
+
+    susandpubisa()

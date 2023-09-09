@@ -1,0 +1,2 @@
+gui_RR:my_camera:pubsub
+-DCATKIN_DEVEL_PREFIX=/home/francisco/ros-ws/devel -DCMAKE_INSTALL_PREFIX=/home/francisco/ros-ws/install -G Unix Makefiles

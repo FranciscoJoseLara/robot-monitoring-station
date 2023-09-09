@@ -24,10 +24,10 @@ gnome-terminal --tab -- bash -c "./web-video-server.sh; exec bash -i"
 gnome-terminal --tab -- bash -c "./play-unit01.sh; exec bash -i"
 
 # lanza el simulador de datos de unidad01 (ros2)
-gnome-terminal --tab -- bash -c "source /home/francisco/source-ros2.sh; ros2 run monitoring_station_tfm test-pub; exec bash -i"
+gnome-terminal --tab -- bash -c "source /home/francisco/source-ros2.sh; ros2 run monitoring_station_tfm sample_features_pub; exec bash -i"
 
 # lanza nodo publicador de unidad01 (ros2)
-gnome-terminal --tab -- bash -c "source /home/francisco/source-ros2.sh; ros2 run monitoring_station_tfm timer; exec bash -i"
+gnome-terminal --tab -- bash -c "source /home/francisco/source-ros2.sh; ros2 run monitoring_station_tfm unit_sync_pub; exec bash -i"
 
 # lanza rosbag de unidad2 (ros1)
 gnome-terminal --tab -- bash -c "./play-unit02.sh; exec bash -i"

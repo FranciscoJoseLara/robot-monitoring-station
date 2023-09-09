@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+
+import rospy
+#from std_msgs.msg import String
+#from geometry_msgs.msg import Twist
+from sensor_msgs.msg import NavSatFix
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = []
+y1 = []
+x2 = []
+y2 = []
+x3 = []
+y3 = []
+
+
+
+
+
+
+def callback(data):
+    rospy.loginfo(rospy.get_caller_id() + 'X: %0.2f - Y: %0.2f - Z: %0.2f', data.linear.x, data.linear.y, data.linear.z)
+
+def callback1(data):
+    global i
+    x1.append(data.latitude)
+    y1.append(data.longitude)
+    i += 1
+    if (i == 10):
+        np.savetxt('/home/francisco/Documentos/bagfiles/x1.txt', x1)
+        np.savetxt('/home/francisco/Documentos/bagfiles/y1.txt', y1)
+
+def callback2(data):
+    global j
+    x2.append(data.latitude)
+    y2.append(data.longitude)
+    j += 1
+    if (j == 10):
+        np.savetxt('/home/francisco/Documentos/bagfiles/x2.txt', x2)
+        np.savetxt('/home/francisco/Documentos/bagfiles/y2.txt', y2)
+
+def callback3(data):
+    global k
+    x3.append(data.latitude)
+    y3.append(data.longitude)
+    k += 1
+    if (k == 10):
+        np.savetxt('/home/francisco/Documentos/bagfiles/x3.txt', x3)
+        np.savetxt('/home/francisco/Documentos/bagfiles/y3.txt', y3)
+
+def suscriptor():
+
+    rospy.init_node('suscriptor', anonymous=True)
+
+    #rospy.Subscriber('chatter', String, callback)
+    #rospy.Subscriber('/turtle1/cmd_vel', Twist, callback)
+    #rospy.Subscriber('/topic01', Twist, callback)
+    #rospy.Subscriber('/topic02', Twist, callback)
+    #rospy.Subscriber('/topic03', Twist, callback)
+    rospy.Subscriber('/gps0/rob1', NavSatFix, callback1)
+    rospy.Subscriber('/gps0/rob2', NavSatFix, callback2)
+    rospy.Subscriber('/gps0/rob3', NavSatFix, callback3)
+
+    rospy.spin()
+
+if __name__ == '__main__':
+    i = 0
+    j = 0
+    k = 0
+    suscriptor()

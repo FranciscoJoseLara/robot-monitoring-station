@@ -67,7 +67,7 @@ export function addPoint(jsonObj) {
 function buildCameraPanel(id, camtopic, cameraFlag){
   
   if('true' === cameraFlag){
-    document.getElementById('cameras-boxes').innerHTML += '<div class="video-box"><p class="camera-id">Cámara: <strong>' + id + '</strong></p><img class="no-margin"  src="http://' + window.IPserver + ':8181/stream?topic=' + camtopic + '" alt="Topic: ' + camtopic + '" onerror="this.src=\'./icon-no-signal.png\';"/></div>';  
+    document.getElementById('cameras-boxes').innerHTML += '<div class="video-box"><p class="camera-id">Cámara: <strong>' + id + '</strong></p><img class="no-margin"  src="http://' + window.IPserver + ':8181/stream?topic=' + camtopic + '" alt="Topic: ' + camtopic + '" onerror="this.src=\'./icon/icon-no-signal.png\';"/></div>';  
   }
 }
 
@@ -113,7 +113,7 @@ export function units_reset(){
 }
 
 function create_unit_box(id){
-  return '<div class="unit-box"><div class="unit-box-info">' + id + '</div><div class="unit-box-access"><a href="#up" style="text-decoration: none;"><div class="white-button"  style=" margin-left: 10%; display: inline-flex; justify-content: center; place-items: center;" onclick=\'center_unit("' + id + '")\'><img src="./icon-button-center.png" alt="centrar unidad" style=" margin-top: 0px !important; margin-left: 0px !important;"/></div><div class="white-button"  style=" margin-left: 10%; display: inline-flex; justify-content: center; place-items: center;" onclick=\'show_details("' + id + '")\'><img src="./icon-menu.png" alt="menu detalles" style=" margin-top: 0px !important; margin-left: 0px !important;"/></div></a></div></div>';
+  return '<div class="unit-box"><div class="unit-box-info">' + id + '</div><div class="unit-box-access"><a href="#up" style="text-decoration: none;"><div class="white-button"  style=" margin-left: 10%; display: inline-flex; justify-content: center; place-items: center;" onclick=\'center_unit("' + id + '")\'><img src="./icon/icon-button-center.png" alt="centrar unidad" style=" margin-top: 0px !important; margin-left: 0px !important;"/></div><div class="white-button"  style=" margin-left: 10%; display: inline-flex; justify-content: center; place-items: center;" onclick=\'show_details("' + id + '")\'><img src="./icon/icon-menu.png" alt="menu detalles" style=" margin-top: 0px !important; margin-left: 0px !important;"/></div></a></div></div>';
 }
 
 export function sync_units(jsonObj){

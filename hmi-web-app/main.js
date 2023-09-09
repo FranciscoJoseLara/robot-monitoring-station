@@ -1,4 +1,4 @@
-import './style.css';
+import './css/style.css';
 import {Map, View} from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
@@ -16,8 +16,8 @@ import * as roscontrol from './ros-control';
 
 // ----------------------------------- IP -----------------------
 // window.IPserver = '192.168.0.24'; // CASA
-window.IPserver = '10.242.223.250'; // VPN-ISA
-// window.IPserver = '0.0.0.0'; // DEFAULT
+// window.IPserver = '10.242.223.250'; // VPN-ISA
+window.IPserver = '0.0.0.0'; // DEFAULT
 // --------------------------------------------------------------
 
 useGeographic();
@@ -78,7 +78,7 @@ olparam.select.on("select", (e) => {
         const overlay_center = document.getElementById("overlay-center");
         const overlay_R = document.getElementById("overlay-right-corner");
         overlay_R.style.visibility = "visible";
-        // overlay_L.innerHTML = '<img id="camera" src="http://' + window.IPserver + ':8181/stream?topic=' + feature.get("robcamera") + '" alt="http://' + window.IPserver + ':8181/stream?topic=' + feature.get("robcamera") + '" onerror="this.src=\'./icon-no-signal.png\';"/><img id="icon-expand" src="./icon-expand.png" alt="icon expand" onclick="camera_expand()"/>';
+        // overlay_L.innerHTML = '<img id="camera" src="http://' + window.IPserver + ':8181/stream?topic=' + feature.get("robcamera") + '" alt="http://' + window.IPserver + ':8181/stream?topic=' + feature.get("robcamera") + '" onerror="this.src=\'./icon/icon-no-signal.png\';"/><img id="icon-expand" src="./icon/icon-expand.png" alt="icon expand" onclick="camera_expand()"/>';
         overlay_center.innerHTML = `Unidad: ${robotId}`; //  ${robotId}
         // overlay_R.innerHTML = 'inclinación';
         overlay.style.display = "flex";
@@ -267,7 +267,7 @@ function data_to_details_panel(panel, id){
     // comprobación para dato: camera
     if("true" === featureSelected.get("flagcamera")){
       // console.log("show box camera");
-      var cam = '<img id="camera" src="http://' + window.IPserver + ':8181/stream?topic=' + featureSelected.get("robcamera") + '" alt="http://' + window.IPserver + ':8181/stream?topic=' + featureSelected.get("robcamera") + '" onerror="this.src=\'./icon-no-signal.png\';"/>';
+      var cam = '<img id="camera" src="http://' + window.IPserver + ':8181/stream?topic=' + featureSelected.get("robcamera") + '" alt="http://' + window.IPserver + ':8181/stream?topic=' + featureSelected.get("robcamera") + '" onerror="this.src=\'./icon/icon-no-signal.png\';"/>';
       detail_panel.innerHTML += `<div class="detail-box"><br>Cámara<br><br>${cam}</div>`;
       document.getElementById("camera").style.setProperty("height","100px");
     }
@@ -320,7 +320,7 @@ window.expand_camera = expand_camera;
 
 function expand_camera(){
   var cam = `<div id="close-camera-expand" onclick="close_camera_expand()"><strong>X</strong></div>
-  <img id="camera" class="camera-big" src="http://${window.IPserver}:8181/stream?topic=/video_image" alt="http://${window.IPserver}:8181/stream?topic=/video_image" onerror="this.src='./icon-no-signal.png';"/>`
+  <img id="camera" class="camera-big" src="http://${window.IPserver}:8181/stream?topic=/video_image" alt="http://${window.IPserver}:8181/stream?topic=/video_image" onerror="this.src='./icon/icon-no-signal.png';"/>`
   document.getElementById("camera-expand").innerHTML = cam;
 }
 

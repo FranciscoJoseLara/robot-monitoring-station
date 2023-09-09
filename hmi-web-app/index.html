@@ -7,9 +7,9 @@
     
     <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
 
-    <link rel="stylesheet" type="text/css" href="styles_main.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="styles_loader.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="styles_animations.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/styles_main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/styles_loader.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/styles_animations.css" media="screen" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -32,7 +32,7 @@
         <div id="close"  onclick="notnot()"><img src="https://cdn4.iconfinder.com/data/icons/menu-phone-glyph/32/menu_glyph_43-512.png" style="height: 30px;" /></div>
     </div>
 
-    <div id="img-lupa-container"><img id="img-lupa" src="icon-lupa.png" onclick="close_detail_panel()"></img></div>
+    <div id="img-lupa-container"><img id="img-lupa" src="icon/icon-lupa.png" onclick="close_detail_panel()"></img></div>
 
     <a name="up"></a>
     <div id="detail-panel">
@@ -46,10 +46,10 @@
 
 
     <div id="head-buttons">
-      <!-- <a href="#ancla-1"> --> <div id="robots-button" class="control-buttons" onclick="show_robots_panel()"><img src="./icon_robocar.png" alt="robocar"/></div> <!-- </a> -->
-      <div id="sync-button" class="control-buttons" onclick="show_sync_panel()"><img src="./icon_sync.png" alt="sync"/></div>
-      <div id="center-button" class="control-buttons" onclick="center_view()"><img src="./icon-center.png" alt="center"/></div>
-      <div id="video-button" class="control-buttons" onclick="show_video_panel()"><img src="./icon-video.png" alt="video"/></div>
+      <!-- <a href="#ancla-1"> --> <div id="robots-button" class="control-buttons" onclick="show_robots_panel()"><img src="./icon/icon_robocar.png" alt="robocar"/></div> <!-- </a> -->
+      <div id="sync-button" class="control-buttons" onclick="show_sync_panel()"><img src="./icon/icon_sync.png" alt="sync"/></div>
+      <div id="center-button" class="control-buttons" onclick="center_view()"><img src="./icon/icon-center.png" alt="center"/></div>
+      <div id="video-button" class="control-buttons" onclick="show_video_panel()"><img src="./icon/icon-video.png" alt="video"/></div>
     </div>
 
     <div id="sync-panel">
@@ -105,28 +105,29 @@
     <div id="video-panel">
       <div id="close-camera-expand" onclick="close_video_panel()"><strong>X</strong></div>
         <div id="cameras-boxes">
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://0.0.0.0:8181/stream?topic=/video_image" alt="camera" onerror="this.src='./icon/icon-no-signal.png';"/></div>
 
           <!-- =========== EJERCICIO ''1'' ========== -->
 
           <!-- CAMARAS ROVERJ8 -->
-          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Movil</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_movil" alt="RoverJ8 movil" onerror="this.src='./icon-no-signal.png';"/></div>  -->
-          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>      -->
-          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_rear" alt="RoverJ8 rear" onerror="this.src='./icon-no-signal.png';"/></div>     --> 
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Movil</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_movil" alt="RoverJ8 movil" onerror="this.src='./icon/icon-no-signal.png';"/></div>  -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon/icon-no-signal.png';"/></div>      -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_rear" alt="RoverJ8 rear" onerror="this.src='./icon/icon-no-signal.png';"/></div>     --> 
           
-          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>    
-          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_rear" alt="RoverJ8 rear" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_front" alt="RoverJ8 front" onerror="this.src='./icon/icon-no-signal.png';"/></div>    
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_rear" alt="RoverJ8 rear" onerror="this.src='./icon/icon-no-signal.png';"/></div>     -->
           
 
 
           <!-- =========== EJERCICIO ''2'' ========== -->
 
           <!-- CAMARAS ROVERJ8 -->
-          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Movil</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_movil" alt="RoverJ8 movil" onerror="this.src='./icon-no-signal.png';"/></div>
-          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>    
-          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_rear" alt="RoverJ8 rear" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Movil</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/rj8_movil" alt="RoverJ8 movil" onerror="this.src='./icon/icon-no-signal.png';"/></div>
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon/icon-no-signal.png';"/></div>    
+          <div class="video-box"><p class="camera-id">Camera: RoverJ8_Rear</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_rear" alt="RoverJ8 rear" onerror="this.src='./icon/icon-no-signal.png';"/></div>     -->
           
           <!-- CAMARA DRON -->
-          <!-- <div class="video-box"><p class="camera-id">Camera: Dron_FV8</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/dron" alt="Dron" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: Dron_FV8</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/camera/dron" alt="Dron" onerror="this.src='./icon/icon-no-signal.png';"/></div>     -->
         
 
 
@@ -134,7 +135,7 @@
           <!-- =========== EJERCICIO ''3'' ========== -->
 
           <!-- CAMARA FRONT ROVERJ8 -->
-          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon-no-signal.png';"/></div>     -->
+          <!-- <div class="video-box"><p class="camera-id">Camera: RoverJ8_Front</p><img class="no-margin"  src="http://10.242.223.250:8181/stream?topic=/RoverJ8/cam_front" alt="RoverJ8 front" onerror="this.src='./icon/icon-no-signal.png';"/></div>     -->
 
 
         </div>
@@ -155,9 +156,9 @@
       </div>
       <div id="overlay-center"></div>
       <div id="overlay-right-corner">
-        <!-- <img class="alabeo" id="alabeo-base" src="./icon-alabeo-base.png" alt="alabeo-base"/>
-        <img class="alabeo" id="alabeo-move" src="./icon-alabeo-move.png" alt="alabeo-move"/>
-        <img class="alabeo" id="alabeo-top" src="./icon-alabeo-top.png" alt="alabeo-top"/> -->
+        <!-- <img class="alabeo" id="alabeo-base" src="./icon/icon-alabeo-base.png" alt="alabeo-base"/>
+        <img class="alabeo" id="alabeo-move" src="./icon/icon-alabeo-move.png" alt="alabeo-move"/>
+        <img class="alabeo" id="alabeo-top" src="./icon/icon-alabeo-top.png" alt="alabeo-top"/> -->
       </div>
     </div>
 
