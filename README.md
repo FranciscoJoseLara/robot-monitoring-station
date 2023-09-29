@@ -1,5 +1,5 @@
 # robot-monitoring-station
-Estación de seguimiento multiplataforma desarrollada como proyecto de fin de máster(PFM) para el Departamento de Ingeniería de Sistemas y Automática(ISA) de la Escuela de Ingenierías Industriales(EII) de la Universidad de Málaga(UMA).
+Estación de supervisión multiplataforma desarrollada como proyecto de fin de máster(PFM) para el Departamento de Ingeniería de Sistemas y Automática(ISA) de la Escuela de Ingenierías Industriales(EII) de la Universidad de Málaga(UMA).
 
 Autor: Francisco José Lara
 
